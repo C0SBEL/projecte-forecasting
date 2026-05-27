@@ -1,0 +1,10 @@
+# Raw data (fitxers grans, no pujar a git)
+data/raw/
+
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
