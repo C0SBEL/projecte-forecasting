@@ -1,0 +1,253 @@
+date,Tecnologia,Model,predicted,actual
+2025-01-01,Elèctric,SeasonalNaive,824.0,1230
+2025-02-01,Elèctric,SeasonalNaive,1033.0,1193
+2025-03-01,Elèctric,SeasonalNaive,1008.0,1616
+2025-04-01,Elèctric,SeasonalNaive,937.0,1401
+2025-05-01,Elèctric,SeasonalNaive,939.0,1773
+2025-06-01,Elèctric,SeasonalNaive,1260.0,2096
+2025-07-01,Elèctric,SeasonalNaive,1061.0,1998
+2025-08-01,Elèctric,SeasonalNaive,655.0,1415
+2025-09-01,Elèctric,SeasonalNaive,1419.0,1894
+2025-10-01,Elèctric,SeasonalNaive,1266.0,1789
+2025-11-01,Elèctric,SeasonalNaive,1176.0,2329
+2025-12-01,Elèctric,SeasonalNaive,1823.0,1761
+2025-01-01,Elèctric,ETS_Additiu,1253.3821067836998,1230
+2025-02-01,Elèctric,ETS_Additiu,1250.7542780557035,1193
+2025-03-01,Elèctric,ETS_Additiu,1435.5687493191724,1616
+2025-04-01,Elèctric,ETS_Additiu,1085.87627792004,1401
+2025-05-01,Elèctric,ETS_Additiu,1116.84285558012,1773
+2025-06-01,Elèctric,ETS_Additiu,1332.4196204558975,2096
+2025-07-01,Elèctric,ETS_Additiu,1460.449460342758,1998
+2025-08-01,Elèctric,ETS_Additiu,1193.0841832393826,1415
+2025-09-01,Elèctric,ETS_Additiu,1347.5797886750042,1894
+2025-10-01,Elèctric,ETS_Additiu,1346.7699622690695,1789
+2025-11-01,Elèctric,ETS_Additiu,1379.4214991144506,2329
+2025-12-01,Elèctric,ETS_Additiu,1553.0629019476085,1761
+2025-01-01,Elèctric,ETS_Multiplicatiu,1229.576863319047,1230
+2025-02-01,Elèctric,ETS_Multiplicatiu,1226.7286599336057,1193
+2025-03-01,Elèctric,ETS_Multiplicatiu,1506.5342572062978,1616
+2025-04-01,Elèctric,ETS_Multiplicatiu,914.192757860022,1401
+2025-05-01,Elèctric,ETS_Multiplicatiu,1022.6003432404908,1773
+2025-06-01,Elèctric,ETS_Multiplicatiu,1444.5382754760735,2096
+2025-07-01,Elèctric,ETS_Multiplicatiu,1493.31344055828,1998
+2025-08-01,Elèctric,ETS_Multiplicatiu,1034.7875180495569,1415
+2025-09-01,Elèctric,ETS_Multiplicatiu,1376.146544970248,1894
+2025-10-01,Elèctric,ETS_Multiplicatiu,1367.5654277600602,1789
+2025-11-01,Elèctric,ETS_Multiplicatiu,1415.000665525792,2329
+2025-12-01,Elèctric,ETS_Multiplicatiu,1688.93924070007,1761
+2025-01-01,Gasolina Mild Hybrid,SeasonalNaive,1259.0,1981
+2025-02-01,Gasolina Mild Hybrid,SeasonalNaive,1536.0,1933
+2025-03-01,Gasolina Mild Hybrid,SeasonalNaive,1673.0,2244
+2025-04-01,Gasolina Mild Hybrid,SeasonalNaive,1460.0,1906
+2025-05-01,Gasolina Mild Hybrid,SeasonalNaive,1679.0,2472
+2025-06-01,Gasolina Mild Hybrid,SeasonalNaive,2186.0,2455
+2025-07-01,Gasolina Mild Hybrid,SeasonalNaive,2085.0,2253
+2025-08-01,Gasolina Mild Hybrid,SeasonalNaive,1241.0,1415
+2025-09-01,Gasolina Mild Hybrid,SeasonalNaive,1825.0,1980
+2025-10-01,Gasolina Mild Hybrid,SeasonalNaive,2090.0,2530
+2025-11-01,Gasolina Mild Hybrid,SeasonalNaive,1813.0,2271
+2025-12-01,Gasolina Mild Hybrid,SeasonalNaive,2288.0,2349
+2025-01-01,Gasolina Mild Hybrid,ETS_Additiu,1916.9849890434575,1981
+2025-02-01,Gasolina Mild Hybrid,ETS_Additiu,2032.6280062640633,1933
+2025-03-01,Gasolina Mild Hybrid,ETS_Additiu,2200.0408311455662,2244
+2025-04-01,Gasolina Mild Hybrid,ETS_Additiu,2090.506883975629,1906
+2025-05-01,Gasolina Mild Hybrid,ETS_Additiu,2293.050224245565,2472
+2025-06-01,Gasolina Mild Hybrid,ETS_Additiu,2393.1173095932936,2455
+2025-07-01,Gasolina Mild Hybrid,ETS_Additiu,2403.905707340276,2253
+2025-08-01,Gasolina Mild Hybrid,ETS_Additiu,2137.5274906635827,1415
+2025-09-01,Gasolina Mild Hybrid,ETS_Additiu,2357.7960692374545,1980
+2025-10-01,Gasolina Mild Hybrid,ETS_Additiu,2500.061027886197,2530
+2025-11-01,Gasolina Mild Hybrid,ETS_Additiu,2467.5620915241225,2271
+2025-12-01,Gasolina Mild Hybrid,ETS_Additiu,2706.3566640263307,2349
+2025-01-01,Gasolina Mild Hybrid,ETS_Multiplicatiu,1516.202915556267,1981
+2025-02-01,Gasolina Mild Hybrid,ETS_Multiplicatiu,1742.1924350379359,1933
+2025-03-01,Gasolina Mild Hybrid,ETS_Multiplicatiu,2110.8973392784237,2244
+2025-04-01,Gasolina Mild Hybrid,ETS_Multiplicatiu,1751.4992251085068,1906
+2025-05-01,Gasolina Mild Hybrid,ETS_Multiplicatiu,2196.3286685907806,2472
+2025-06-01,Gasolina Mild Hybrid,ETS_Multiplicatiu,2277.1337092067183,2455
+2025-07-01,Gasolina Mild Hybrid,ETS_Multiplicatiu,2180.082602410234,2253
+2025-08-01,Gasolina Mild Hybrid,ETS_Multiplicatiu,1438.8468828374594,1415
+2025-09-01,Gasolina Mild Hybrid,ETS_Multiplicatiu,1953.0834044038309,1980
+2025-10-01,Gasolina Mild Hybrid,ETS_Multiplicatiu,2277.2447296035066,2530
+2025-11-01,Gasolina Mild Hybrid,ETS_Multiplicatiu,2048.2474307463353,2271
+2025-12-01,Gasolina Mild Hybrid,ETS_Multiplicatiu,2595.261227637836,2349
+2025-01-01,Gasolina/Elèctric,SeasonalNaive,1866.0,2265
+2025-02-01,Gasolina/Elèctric,SeasonalNaive,1879.0,2463
+2025-03-01,Gasolina/Elèctric,SeasonalNaive,1791.0,2512
+2025-04-01,Gasolina/Elèctric,SeasonalNaive,2024.0,2060
+2025-05-01,Gasolina/Elèctric,SeasonalNaive,2011.0,2410
+2025-06-01,Gasolina/Elèctric,SeasonalNaive,2177.0,2476
+2025-07-01,Gasolina/Elèctric,SeasonalNaive,2640.0,2927
+2025-08-01,Gasolina/Elèctric,SeasonalNaive,1532.0,1853
+2025-09-01,Gasolina/Elèctric,SeasonalNaive,1842.0,2382
+2025-10-01,Gasolina/Elèctric,SeasonalNaive,2783.0,2863
+2025-11-01,Gasolina/Elèctric,SeasonalNaive,2374.0,3231
+2025-12-01,Gasolina/Elèctric,SeasonalNaive,2891.0,2858
+2025-01-01,Gasolina/Elèctric,ETS_Additiu,2291.3468885965194,2265
+2025-02-01,Gasolina/Elèctric,ETS_Additiu,2338.1228952471865,2463
+2025-03-01,Gasolina/Elèctric,ETS_Additiu,2318.773609167488,2512
+2025-04-01,Gasolina/Elèctric,ETS_Additiu,2227.6043107194205,2060
+2025-05-01,Gasolina/Elèctric,ETS_Additiu,2568.751106236309,2410
+2025-06-01,Gasolina/Elèctric,ETS_Additiu,2666.5634533522834,2476
+2025-07-01,Gasolina/Elèctric,ETS_Additiu,2839.3144735361348,2927
+2025-08-01,Gasolina/Elèctric,ETS_Additiu,2346.497542619982,1853
+2025-09-01,Gasolina/Elèctric,ETS_Additiu,2504.8070353423464,2382
+2025-10-01,Gasolina/Elèctric,ETS_Additiu,2799.5361747529123,2863
+2025-11-01,Gasolina/Elèctric,ETS_Additiu,2881.10945144768,3231
+2025-12-01,Gasolina/Elèctric,ETS_Additiu,2915.200134408674,2858
+2025-01-01,Gasolina/Elèctric,ETS_Multiplicatiu,2225.787441449896,2265
+2025-02-01,Gasolina/Elèctric,ETS_Multiplicatiu,2280.2797381852456,2463
+2025-03-01,Gasolina/Elèctric,ETS_Multiplicatiu,2170.9207118794548,2512
+2025-04-01,Gasolina/Elèctric,ETS_Multiplicatiu,2043.5620861788207,2060
+2025-05-01,Gasolina/Elèctric,ETS_Multiplicatiu,2647.505532815321,2410
+2025-06-01,Gasolina/Elèctric,ETS_Multiplicatiu,2747.4328780777673,2476
+2025-07-01,Gasolina/Elèctric,ETS_Multiplicatiu,3017.513291942328,2927
+2025-08-01,Gasolina/Elèctric,ETS_Multiplicatiu,1965.7521267657396,1853
+2025-09-01,Gasolina/Elèctric,ETS_Multiplicatiu,2259.640706565966,2382
+2025-10-01,Gasolina/Elèctric,ETS_Multiplicatiu,2891.64292552339,2863
+2025-11-01,Gasolina/Elèctric,ETS_Multiplicatiu,2947.397247252228,3231
+2025-12-01,Gasolina/Elèctric,ETS_Multiplicatiu,3024.6852107993986,2858
+2025-01-01,Gasolina/Elèctric Endollable,SeasonalNaive,576.0,643
+2025-02-01,Gasolina/Elèctric Endollable,SeasonalNaive,618.0,847
+2025-03-01,Gasolina/Elèctric Endollable,SeasonalNaive,630.0,975
+2025-04-01,Gasolina/Elèctric Endollable,SeasonalNaive,619.0,1071
+2025-05-01,Gasolina/Elèctric Endollable,SeasonalNaive,633.0,1384
+2025-06-01,Gasolina/Elèctric Endollable,SeasonalNaive,680.0,1684
+2025-07-01,Gasolina/Elèctric Endollable,SeasonalNaive,812.0,1869
+2025-08-01,Gasolina/Elèctric Endollable,SeasonalNaive,407.0,1092
+2025-09-01,Gasolina/Elèctric Endollable,SeasonalNaive,484.0,1534
+2025-10-01,Gasolina/Elèctric Endollable,SeasonalNaive,847.0,1571
+2025-11-01,Gasolina/Elèctric Endollable,SeasonalNaive,652.0,1362
+2025-12-01,Gasolina/Elèctric Endollable,SeasonalNaive,781.0,1574
+2025-01-01,Gasolina/Elèctric Endollable,ETS_Additiu,668.5169087998729,643
+2025-02-01,Gasolina/Elèctric Endollable,ETS_Additiu,678.4523656174168,847
+2025-03-01,Gasolina/Elèctric Endollable,ETS_Additiu,666.8845877912552,975
+2025-04-01,Gasolina/Elèctric Endollable,ETS_Additiu,652.0607908185865,1071
+2025-05-01,Gasolina/Elèctric Endollable,ETS_Additiu,746.5489760392926,1384
+2025-06-01,Gasolina/Elèctric Endollable,ETS_Additiu,754.4587596725369,1684
+2025-07-01,Gasolina/Elèctric Endollable,ETS_Additiu,747.3035717168668,1869
+2025-08-01,Gasolina/Elèctric Endollable,ETS_Additiu,634.0887186131766,1092
+2025-09-01,Gasolina/Elèctric Endollable,ETS_Additiu,707.0419317004806,1534
+2025-10-01,Gasolina/Elèctric Endollable,ETS_Additiu,789.1142850810585,1571
+2025-11-01,Gasolina/Elèctric Endollable,ETS_Additiu,778.575675926375,1362
+2025-12-01,Gasolina/Elèctric Endollable,ETS_Additiu,845.0093159352502,1574
+2025-01-01,Gasolina/Elèctric Endollable,ETS_Multiplicatiu,623.6124282774206,643
+2025-02-01,Gasolina/Elèctric Endollable,ETS_Multiplicatiu,647.5770807711172,847
+2025-03-01,Gasolina/Elèctric Endollable,ETS_Multiplicatiu,601.6944004536616,975
+2025-04-01,Gasolina/Elèctric Endollable,ETS_Multiplicatiu,580.9483229858304,1071
+2025-05-01,Gasolina/Elèctric Endollable,ETS_Multiplicatiu,800.9968762913633,1384
+2025-06-01,Gasolina/Elèctric Endollable,ETS_Multiplicatiu,772.0928688372828,1684
+2025-07-01,Gasolina/Elèctric Endollable,ETS_Multiplicatiu,724.2160548926521,1869
+2025-08-01,Gasolina/Elèctric Endollable,ETS_Multiplicatiu,479.05912127299024,1092
+2025-09-01,Gasolina/Elèctric Endollable,ETS_Multiplicatiu,618.1466151555353,1534
+2025-10-01,Gasolina/Elèctric Endollable,ETS_Multiplicatiu,789.6841635839374,1571
+2025-11-01,Gasolina/Elèctric Endollable,ETS_Multiplicatiu,754.6599262645611,1362
+2025-12-01,Gasolina/Elèctric Endollable,ETS_Multiplicatiu,835.8371435721889,1574
+2025-01-01,Diesel Mild Hybrid,SeasonalNaive,309.0,294
+2025-02-01,Diesel Mild Hybrid,SeasonalNaive,255.0,261
+2025-03-01,Diesel Mild Hybrid,SeasonalNaive,223.0,363
+2025-04-01,Diesel Mild Hybrid,SeasonalNaive,284.0,278
+2025-05-01,Diesel Mild Hybrid,SeasonalNaive,228.0,269
+2025-06-01,Diesel Mild Hybrid,SeasonalNaive,294.0,249
+2025-07-01,Diesel Mild Hybrid,SeasonalNaive,295.0,293
+2025-08-01,Diesel Mild Hybrid,SeasonalNaive,213.0,213
+2025-09-01,Diesel Mild Hybrid,SeasonalNaive,233.0,309
+2025-10-01,Diesel Mild Hybrid,SeasonalNaive,302.0,338
+2025-11-01,Diesel Mild Hybrid,SeasonalNaive,293.0,241
+2025-12-01,Diesel Mild Hybrid,SeasonalNaive,352.0,299
+2025-01-01,Diesel Mild Hybrid,ETS_Additiu,278.78336860144145,294
+2025-02-01,Diesel Mild Hybrid,ETS_Additiu,280.2948166734395,261
+2025-03-01,Diesel Mild Hybrid,ETS_Additiu,293.54419199100244,363
+2025-04-01,Diesel Mild Hybrid,ETS_Additiu,291.40226290145705,278
+2025-05-01,Diesel Mild Hybrid,ETS_Additiu,300.00372823884004,269
+2025-06-01,Diesel Mild Hybrid,ETS_Additiu,324.50911143836714,249
+2025-07-01,Diesel Mild Hybrid,ETS_Additiu,347.7516662197437,293
+2025-08-01,Diesel Mild Hybrid,ETS_Additiu,285.51018116392356,213
+2025-09-01,Diesel Mild Hybrid,ETS_Additiu,314.4863296392365,309
+2025-10-01,Diesel Mild Hybrid,ETS_Additiu,346.25034700779406,338
+2025-11-01,Diesel Mild Hybrid,ETS_Additiu,345.8780034238489,241
+2025-12-01,Diesel Mild Hybrid,ETS_Additiu,368.1409975614908,299
+2025-01-01,Diesel Mild Hybrid,ETS_Multiplicatiu,244.1806255655071,294
+2025-02-01,Diesel Mild Hybrid,ETS_Multiplicatiu,243.19508715300304,261
+2025-03-01,Diesel Mild Hybrid,ETS_Multiplicatiu,271.1219182409766,363
+2025-04-01,Diesel Mild Hybrid,ETS_Multiplicatiu,285.1853721872028,278
+2025-05-01,Diesel Mild Hybrid,ETS_Multiplicatiu,289.2346520749983,269
+2025-06-01,Diesel Mild Hybrid,ETS_Multiplicatiu,322.7075925888218,249
+2025-07-01,Diesel Mild Hybrid,ETS_Multiplicatiu,346.99156335277524,293
+2025-08-01,Diesel Mild Hybrid,ETS_Multiplicatiu,238.37276728795499,213
+2025-09-01,Diesel Mild Hybrid,ETS_Multiplicatiu,296.7563319584323,309
+2025-10-01,Diesel Mild Hybrid,ETS_Multiplicatiu,355.4989235637222,338
+2025-11-01,Diesel Mild Hybrid,ETS_Multiplicatiu,343.0586419955939,241
+2025-12-01,Diesel Mild Hybrid,ETS_Multiplicatiu,386.9258206193462,299
+2025-01-01,Diesel/Elèctric Endollable,SeasonalNaive,35.0,35
+2025-02-01,Diesel/Elèctric Endollable,SeasonalNaive,26.0,20
+2025-03-01,Diesel/Elèctric Endollable,SeasonalNaive,41.0,31
+2025-04-01,Diesel/Elèctric Endollable,SeasonalNaive,36.0,37
+2025-05-01,Diesel/Elèctric Endollable,SeasonalNaive,31.0,47
+2025-06-01,Diesel/Elèctric Endollable,SeasonalNaive,34.0,40
+2025-07-01,Diesel/Elèctric Endollable,SeasonalNaive,41.0,60
+2025-08-01,Diesel/Elèctric Endollable,SeasonalNaive,34.0,32
+2025-09-01,Diesel/Elèctric Endollable,SeasonalNaive,31.0,71
+2025-10-01,Diesel/Elèctric Endollable,SeasonalNaive,23.0,58
+2025-11-01,Diesel/Elèctric Endollable,SeasonalNaive,22.0,52
+2025-12-01,Diesel/Elèctric Endollable,SeasonalNaive,37.0,43
+2025-01-01,Diesel/Elèctric Endollable,ETS_Additiu,31.534294853825276,35
+2025-02-01,Diesel/Elèctric Endollable,ETS_Additiu,30.53386317426279,20
+2025-03-01,Diesel/Elèctric Endollable,ETS_Additiu,31.90943315784147,31
+2025-04-01,Diesel/Elèctric Endollable,ETS_Additiu,31.40879254639218,37
+2025-05-01,Diesel/Elèctric Endollable,ETS_Additiu,30.408305787957673,47
+2025-06-01,Diesel/Elèctric Endollable,ETS_Additiu,29.658288603062772,40
+2025-07-01,Diesel/Elèctric Endollable,ETS_Additiu,32.2836520163682,60
+2025-08-01,Diesel/Elèctric Endollable,ETS_Additiu,29.03408874933165,32
+2025-09-01,Diesel/Elèctric Endollable,ETS_Additiu,29.533904517292008,71
+2025-10-01,Diesel/Elèctric Endollable,ETS_Additiu,32.78379512854404,58
+2025-11-01,Diesel/Elèctric Endollable,ETS_Additiu,30.65921347705901,52
+2025-12-01,Diesel/Elèctric Endollable,ETS_Additiu,43.03408874377634,43
+2025-01-01,Diesel/Elèctric Endollable,ETS_Multiplicatiu,14.85309925925815,35
+2025-02-01,Diesel/Elèctric Endollable,ETS_Multiplicatiu,16.144063675814866,20
+2025-03-01,Diesel/Elèctric Endollable,ETS_Multiplicatiu,19.09476570418884,31
+2025-04-01,Diesel/Elèctric Endollable,ETS_Multiplicatiu,18.426176585658702,37
+2025-05-01,Diesel/Elèctric Endollable,ETS_Multiplicatiu,17.627316827631667,47
+2025-06-01,Diesel/Elèctric Endollable,ETS_Multiplicatiu,18.40325993469271,40
+2025-07-01,Diesel/Elèctric Endollable,ETS_Multiplicatiu,21.843836385749796,60
+2025-08-01,Diesel/Elèctric Endollable,ETS_Multiplicatiu,18.34797484702221,32
+2025-09-01,Diesel/Elèctric Endollable,ETS_Multiplicatiu,18.628071769154225,71
+2025-10-01,Diesel/Elèctric Endollable,ETS_Multiplicatiu,19.708557994448622,58
+2025-11-01,Diesel/Elèctric Endollable,ETS_Multiplicatiu,17.34795008637877,52
+2025-12-01,Diesel/Elèctric Endollable,ETS_Multiplicatiu,41.04362649820044,43
+2025-01-01,Total,SeasonalNaive,4869.0,6448
+2025-02-01,Total,SeasonalNaive,5347.0,6718
+2025-03-01,Total,SeasonalNaive,5366.0,7741
+2025-04-01,Total,SeasonalNaive,5360.0,6754
+2025-05-01,Total,SeasonalNaive,5522.0,8355
+2025-06-01,Total,SeasonalNaive,6632.0,9000
+2025-07-01,Total,SeasonalNaive,6934.0,9402
+2025-08-01,Total,SeasonalNaive,4082.0,6020
+2025-09-01,Total,SeasonalNaive,5834.0,8170
+2025-10-01,Total,SeasonalNaive,7311.0,9166
+2025-11-01,Total,SeasonalNaive,6330.0,9506
+2025-12-01,Total,SeasonalNaive,8173.0,8895
+2025-01-01,Total,ETS_Additiu,6277.84721189003,6448
+2025-02-01,Total,ETS_Additiu,6419.223682874185,6718
+2025-03-01,Total,ETS_Additiu,6717.548988914615,7741
+2025-04-01,Total,ETS_Additiu,6142.153198126124,6754
+2025-05-01,Total,ETS_Additiu,6777.758314576599,8355
+2025-06-01,Total,ETS_Additiu,7171.029378923857,9000
+2025-07-01,Total,ETS_Additiu,7458.529021961241,9402
+2025-08-01,Total,ETS_Additiu,6260.707891393066,6020
+2025-09-01,Total,ETS_Additiu,6882.334879945468,8170
+2025-10-01,Total,ETS_Additiu,7395.0019800346645,9166
+2025-11-01,Total,ETS_Additiu,7428.022764947569,9506
+2025-12-01,Total,ETS_Additiu,7925.615600929403,8895
+2025-01-01,Total,ETS_Multiplicatiu,4833.770730779289,6448
+2025-02-01,Total,ETS_Multiplicatiu,4715.1296572236515,6718
+2025-03-01,Total,ETS_Multiplicatiu,5268.484996786844,7741
+2025-04-01,Total,ETS_Multiplicatiu,3764.390602170361,6754
+2025-05-01,Total,ETS_Multiplicatiu,5765.054854873982,8355
+2025-06-01,Total,ETS_Multiplicatiu,6745.193023435911,9000
+2025-07-01,Total,ETS_Multiplicatiu,6514.577719423072,9402
+2025-08-01,Total,ETS_Multiplicatiu,4398.997267525376,6020
+2025-09-01,Total,ETS_Multiplicatiu,4969.917043269505,8170
+2025-10-01,Total,ETS_Multiplicatiu,6897.917288627524,9166
+2025-11-01,Total,ETS_Multiplicatiu,6170.963995678044,9506
+2025-12-01,Total,ETS_Multiplicatiu,7887.984058641555,8895
