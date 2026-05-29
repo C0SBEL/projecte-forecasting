@@ -1,0 +1,865 @@
+Any,Mes,date,Tecnologia,Matriculacions,covid_dummy,moves3_dummy
+2017,1,2017-01-01,Diesel Mild Hybrid,0,0,0
+2017,1,2017-01-01,Diesel/Elèctric,2,0,0
+2017,1,2017-01-01,Diesel/Elèctric Endollable,0,0,0
+2017,1,2017-01-01,Elèctric,48,0,0
+2017,1,2017-01-01,Gas Mild Hybrid,0,0,0
+2017,1,2017-01-01,Gasolina Mild Hybrid,0,0,0
+2017,1,2017-01-01,Gasolina/Elèctric,846,0,0
+2017,1,2017-01-01,Gasolina/Elèctric Endollable,20,0,0
+2017,1,2017-01-01,Total,916,0,0
+2017,2,2017-02-01,Diesel Mild Hybrid,0,0,0
+2017,2,2017-02-01,Diesel/Elèctric,1,0,0
+2017,2,2017-02-01,Diesel/Elèctric Endollable,0,0,0
+2017,2,2017-02-01,Elèctric,192,0,0
+2017,2,2017-02-01,Gas Mild Hybrid,0,0,0
+2017,2,2017-02-01,Gasolina Mild Hybrid,0,0,0
+2017,2,2017-02-01,Gasolina/Elèctric,824,0,0
+2017,2,2017-02-01,Gasolina/Elèctric Endollable,25,0,0
+2017,2,2017-02-01,Total,1042,0,0
+2017,3,2017-03-01,Diesel Mild Hybrid,0,0,0
+2017,3,2017-03-01,Diesel/Elèctric,4,0,0
+2017,3,2017-03-01,Diesel/Elèctric Endollable,0,0,0
+2017,3,2017-03-01,Elèctric,187,0,0
+2017,3,2017-03-01,Gas Mild Hybrid,0,0,0
+2017,3,2017-03-01,Gasolina Mild Hybrid,0,0,0
+2017,3,2017-03-01,Gasolina/Elèctric,869,0,0
+2017,3,2017-03-01,Gasolina/Elèctric Endollable,34,0,0
+2017,3,2017-03-01,Total,1094,0,0
+2017,4,2017-04-01,Diesel Mild Hybrid,0,0,0
+2017,4,2017-04-01,Diesel/Elèctric,5,0,0
+2017,4,2017-04-01,Diesel/Elèctric Endollable,2,0,0
+2017,4,2017-04-01,Elèctric,240,0,0
+2017,4,2017-04-01,Gas Mild Hybrid,0,0,0
+2017,4,2017-04-01,Gasolina Mild Hybrid,0,0,0
+2017,4,2017-04-01,Gasolina/Elèctric,767,0,0
+2017,4,2017-04-01,Gasolina/Elèctric Endollable,35,0,0
+2017,4,2017-04-01,Total,1049,0,0
+2017,5,2017-05-01,Diesel Mild Hybrid,0,0,0
+2017,5,2017-05-01,Diesel/Elèctric,4,0,0
+2017,5,2017-05-01,Diesel/Elèctric Endollable,2,0,0
+2017,5,2017-05-01,Elèctric,151,0,0
+2017,5,2017-05-01,Gas Mild Hybrid,0,0,0
+2017,5,2017-05-01,Gasolina Mild Hybrid,0,0,0
+2017,5,2017-05-01,Gasolina/Elèctric,1030,0,0
+2017,5,2017-05-01,Gasolina/Elèctric Endollable,41,0,0
+2017,5,2017-05-01,Total,1228,0,0
+2017,6,2017-06-01,Diesel Mild Hybrid,0,0,0
+2017,6,2017-06-01,Diesel/Elèctric,4,0,0
+2017,6,2017-06-01,Diesel/Elèctric Endollable,0,0,0
+2017,6,2017-06-01,Elèctric,146,0,0
+2017,6,2017-06-01,Gas Mild Hybrid,0,0,0
+2017,6,2017-06-01,Gasolina Mild Hybrid,0,0,0
+2017,6,2017-06-01,Gasolina/Elèctric,1170,0,0
+2017,6,2017-06-01,Gasolina/Elèctric Endollable,62,0,0
+2017,6,2017-06-01,Total,1382,0,0
+2017,7,2017-07-01,Diesel Mild Hybrid,0,0,0
+2017,7,2017-07-01,Diesel/Elèctric,1,0,0
+2017,7,2017-07-01,Diesel/Elèctric Endollable,3,0,0
+2017,7,2017-07-01,Elèctric,139,0,0
+2017,7,2017-07-01,Gas Mild Hybrid,0,0,0
+2017,7,2017-07-01,Gasolina Mild Hybrid,0,0,0
+2017,7,2017-07-01,Gasolina/Elèctric,1191,0,0
+2017,7,2017-07-01,Gasolina/Elèctric Endollable,65,0,0
+2017,7,2017-07-01,Total,1399,0,0
+2017,8,2017-08-01,Diesel Mild Hybrid,0,0,0
+2017,8,2017-08-01,Diesel/Elèctric,2,0,0
+2017,8,2017-08-01,Diesel/Elèctric Endollable,2,0,0
+2017,8,2017-08-01,Elèctric,250,0,0
+2017,8,2017-08-01,Gas Mild Hybrid,0,0,0
+2017,8,2017-08-01,Gasolina Mild Hybrid,0,0,0
+2017,8,2017-08-01,Gasolina/Elèctric,927,0,0
+2017,8,2017-08-01,Gasolina/Elèctric Endollable,63,0,0
+2017,8,2017-08-01,Total,1244,0,0
+2017,9,2017-09-01,Diesel Mild Hybrid,0,0,0
+2017,9,2017-09-01,Diesel/Elèctric,1,0,0
+2017,9,2017-09-01,Diesel/Elèctric Endollable,1,0,0
+2017,9,2017-09-01,Elèctric,335,0,0
+2017,9,2017-09-01,Gas Mild Hybrid,0,0,0
+2017,9,2017-09-01,Gasolina Mild Hybrid,0,0,0
+2017,9,2017-09-01,Gasolina/Elèctric,879,0,0
+2017,9,2017-09-01,Gasolina/Elèctric Endollable,63,0,0
+2017,9,2017-09-01,Total,1279,0,0
+2017,10,2017-10-01,Diesel Mild Hybrid,0,0,0
+2017,10,2017-10-01,Diesel/Elèctric,4,0,0
+2017,10,2017-10-01,Diesel/Elèctric Endollable,5,0,0
+2017,10,2017-10-01,Elèctric,336,0,0
+2017,10,2017-10-01,Gas Mild Hybrid,0,0,0
+2017,10,2017-10-01,Gasolina Mild Hybrid,0,0,0
+2017,10,2017-10-01,Gasolina/Elèctric,949,0,0
+2017,10,2017-10-01,Gasolina/Elèctric Endollable,69,0,0
+2017,10,2017-10-01,Total,1363,0,0
+2017,11,2017-11-01,Diesel Mild Hybrid,0,0,0
+2017,11,2017-11-01,Diesel/Elèctric,5,0,0
+2017,11,2017-11-01,Diesel/Elèctric Endollable,8,0,0
+2017,11,2017-11-01,Elèctric,268,0,0
+2017,11,2017-11-01,Gas Mild Hybrid,0,0,0
+2017,11,2017-11-01,Gasolina Mild Hybrid,0,0,0
+2017,11,2017-11-01,Gasolina/Elèctric,1158,0,0
+2017,11,2017-11-01,Gasolina/Elèctric Endollable,68,0,0
+2017,11,2017-11-01,Total,1507,0,0
+2017,12,2017-12-01,Diesel Mild Hybrid,0,0,0
+2017,12,2017-12-01,Diesel/Elèctric,1,0,0
+2017,12,2017-12-01,Diesel/Elèctric Endollable,0,0,0
+2017,12,2017-12-01,Elèctric,321,0,0
+2017,12,2017-12-01,Gas Mild Hybrid,0,0,0
+2017,12,2017-12-01,Gasolina Mild Hybrid,0,0,0
+2017,12,2017-12-01,Gasolina/Elèctric,969,0,0
+2017,12,2017-12-01,Gasolina/Elèctric Endollable,75,0,0
+2017,12,2017-12-01,Total,1366,0,0
+2018,1,2018-01-01,Diesel Mild Hybrid,0,0,0
+2018,1,2018-01-01,Diesel/Elèctric,1,0,0
+2018,1,2018-01-01,Diesel/Elèctric Endollable,0,0,0
+2018,1,2018-01-01,Elèctric,288,0,0
+2018,1,2018-01-01,Gas Mild Hybrid,0,0,0
+2018,1,2018-01-01,Gasolina Mild Hybrid,0,0,0
+2018,1,2018-01-01,Gasolina/Elèctric,1100,0,0
+2018,1,2018-01-01,Gasolina/Elèctric Endollable,56,0,0
+2018,1,2018-01-01,Total,1445,0,0
+2018,2,2018-02-01,Diesel Mild Hybrid,0,0,0
+2018,2,2018-02-01,Diesel/Elèctric,0,0,0
+2018,2,2018-02-01,Diesel/Elèctric Endollable,0,0,0
+2018,2,2018-02-01,Elèctric,152,0,0
+2018,2,2018-02-01,Gas Mild Hybrid,0,0,0
+2018,2,2018-02-01,Gasolina Mild Hybrid,0,0,0
+2018,2,2018-02-01,Gasolina/Elèctric,932,0,0
+2018,2,2018-02-01,Gasolina/Elèctric Endollable,57,0,0
+2018,2,2018-02-01,Total,1141,0,0
+2018,3,2018-03-01,Diesel Mild Hybrid,0,0,0
+2018,3,2018-03-01,Diesel/Elèctric,13,0,0
+2018,3,2018-03-01,Diesel/Elèctric Endollable,1,0,0
+2018,3,2018-03-01,Elèctric,828,0,0
+2018,3,2018-03-01,Gas Mild Hybrid,0,0,0
+2018,3,2018-03-01,Gasolina Mild Hybrid,0,0,0
+2018,3,2018-03-01,Gasolina/Elèctric,926,0,0
+2018,3,2018-03-01,Gasolina/Elèctric Endollable,49,0,0
+2018,3,2018-03-01,Total,1817,0,0
+2018,4,2018-04-01,Diesel Mild Hybrid,0,0,0
+2018,4,2018-04-01,Diesel/Elèctric,3,0,0
+2018,4,2018-04-01,Diesel/Elèctric Endollable,2,0,0
+2018,4,2018-04-01,Elèctric,458,0,0
+2018,4,2018-04-01,Gas Mild Hybrid,0,0,0
+2018,4,2018-04-01,Gasolina Mild Hybrid,0,0,0
+2018,4,2018-04-01,Gasolina/Elèctric,1006,0,0
+2018,4,2018-04-01,Gasolina/Elèctric Endollable,36,0,0
+2018,4,2018-04-01,Total,1505,0,0
+2018,5,2018-05-01,Diesel Mild Hybrid,0,0,0
+2018,5,2018-05-01,Diesel/Elèctric,3,0,0
+2018,5,2018-05-01,Diesel/Elèctric Endollable,0,0,0
+2018,5,2018-05-01,Elèctric,248,0,0
+2018,5,2018-05-01,Gas Mild Hybrid,0,0,0
+2018,5,2018-05-01,Gasolina Mild Hybrid,0,0,0
+2018,5,2018-05-01,Gasolina/Elèctric,1180,0,0
+2018,5,2018-05-01,Gasolina/Elèctric Endollable,26,0,0
+2018,5,2018-05-01,Total,1457,0,0
+2018,6,2018-06-01,Diesel Mild Hybrid,0,0,0
+2018,6,2018-06-01,Diesel/Elèctric,1,0,0
+2018,6,2018-06-01,Diesel/Elèctric Endollable,0,0,0
+2018,6,2018-06-01,Elèctric,214,0,0
+2018,6,2018-06-01,Gas Mild Hybrid,0,0,0
+2018,6,2018-06-01,Gasolina Mild Hybrid,0,0,0
+2018,6,2018-06-01,Gasolina/Elèctric,1139,0,0
+2018,6,2018-06-01,Gasolina/Elèctric Endollable,90,0,0
+2018,6,2018-06-01,Total,1444,0,0
+2018,7,2018-07-01,Diesel Mild Hybrid,0,0,0
+2018,7,2018-07-01,Diesel/Elèctric,3,0,0
+2018,7,2018-07-01,Diesel/Elèctric Endollable,2,0,0
+2018,7,2018-07-01,Elèctric,270,0,0
+2018,7,2018-07-01,Gas Mild Hybrid,0,0,0
+2018,7,2018-07-01,Gasolina Mild Hybrid,0,0,0
+2018,7,2018-07-01,Gasolina/Elèctric,1071,0,0
+2018,7,2018-07-01,Gasolina/Elèctric Endollable,49,0,0
+2018,7,2018-07-01,Total,1395,0,0
+2018,8,2018-08-01,Diesel Mild Hybrid,0,0,0
+2018,8,2018-08-01,Diesel/Elèctric,6,0,0
+2018,8,2018-08-01,Diesel/Elèctric Endollable,0,0,0
+2018,8,2018-08-01,Elèctric,124,0,0
+2018,8,2018-08-01,Gas Mild Hybrid,0,0,0
+2018,8,2018-08-01,Gasolina Mild Hybrid,0,0,0
+2018,8,2018-08-01,Gasolina/Elèctric,940,0,0
+2018,8,2018-08-01,Gasolina/Elèctric Endollable,60,0,0
+2018,8,2018-08-01,Total,1130,0,0
+2018,9,2018-09-01,Diesel Mild Hybrid,0,0,0
+2018,9,2018-09-01,Diesel/Elèctric,0,0,0
+2018,9,2018-09-01,Diesel/Elèctric Endollable,0,0,0
+2018,9,2018-09-01,Elèctric,164,0,0
+2018,9,2018-09-01,Gas Mild Hybrid,0,0,0
+2018,9,2018-09-01,Gasolina Mild Hybrid,0,0,0
+2018,9,2018-09-01,Gasolina/Elèctric,861,0,0
+2018,9,2018-09-01,Gasolina/Elèctric Endollable,41,0,0
+2018,9,2018-09-01,Total,1066,0,0
+2018,10,2018-10-01,Diesel Mild Hybrid,0,0,0
+2018,10,2018-10-01,Diesel/Elèctric,7,0,0
+2018,10,2018-10-01,Diesel/Elèctric Endollable,0,0,0
+2018,10,2018-10-01,Elèctric,313,0,0
+2018,10,2018-10-01,Gas Mild Hybrid,0,0,0
+2018,10,2018-10-01,Gasolina Mild Hybrid,0,0,0
+2018,10,2018-10-01,Gasolina/Elèctric,1087,0,0
+2018,10,2018-10-01,Gasolina/Elèctric Endollable,53,0,0
+2018,10,2018-10-01,Total,1460,0,0
+2018,11,2018-11-01,Diesel Mild Hybrid,0,0,0
+2018,11,2018-11-01,Diesel/Elèctric,2,0,0
+2018,11,2018-11-01,Diesel/Elèctric Endollable,0,0,0
+2018,11,2018-11-01,Elèctric,423,0,0
+2018,11,2018-11-01,Gas Mild Hybrid,0,0,0
+2018,11,2018-11-01,Gasolina Mild Hybrid,0,0,0
+2018,11,2018-11-01,Gasolina/Elèctric,1019,0,0
+2018,11,2018-11-01,Gasolina/Elèctric Endollable,70,0,0
+2018,11,2018-11-01,Total,1514,0,0
+2018,12,2018-12-01,Diesel Mild Hybrid,0,0,0
+2018,12,2018-12-01,Diesel/Elèctric,2,0,0
+2018,12,2018-12-01,Diesel/Elèctric Endollable,0,0,0
+2018,12,2018-12-01,Elèctric,590,0,0
+2018,12,2018-12-01,Gas Mild Hybrid,0,0,0
+2018,12,2018-12-01,Gasolina Mild Hybrid,0,0,0
+2018,12,2018-12-01,Gasolina/Elèctric,731,0,0
+2018,12,2018-12-01,Gasolina/Elèctric Endollable,99,0,0
+2018,12,2018-12-01,Total,1422,0,0
+2019,1,2019-01-01,Diesel Mild Hybrid,64,0,0
+2019,1,2019-01-01,Diesel/Elèctric,0,0,0
+2019,1,2019-01-01,Diesel/Elèctric Endollable,0,0,0
+2019,1,2019-01-01,Elèctric,505,0,0
+2019,1,2019-01-01,Gas Mild Hybrid,0,0,0
+2019,1,2019-01-01,Gasolina Mild Hybrid,10,0,0
+2019,1,2019-01-01,Gasolina/Elèctric,922,0,0
+2019,1,2019-01-01,Gasolina/Elèctric Endollable,41,0,0
+2019,1,2019-01-01,Total,1542,0,0
+2019,2,2019-02-01,Diesel Mild Hybrid,63,0,0
+2019,2,2019-02-01,Diesel/Elèctric,0,0,0
+2019,2,2019-02-01,Diesel/Elèctric Endollable,1,0,0
+2019,2,2019-02-01,Elèctric,650,0,0
+2019,2,2019-02-01,Gas Mild Hybrid,0,0,0
+2019,2,2019-02-01,Gasolina Mild Hybrid,51,0,0
+2019,2,2019-02-01,Gasolina/Elèctric,838,0,0
+2019,2,2019-02-01,Gasolina/Elèctric Endollable,31,0,0
+2019,2,2019-02-01,Total,1634,0,0
+2019,3,2019-03-01,Diesel Mild Hybrid,34,0,0
+2019,3,2019-03-01,Diesel/Elèctric,0,0,0
+2019,3,2019-03-01,Diesel/Elèctric Endollable,0,0,0
+2019,3,2019-03-01,Elèctric,551,0,0
+2019,3,2019-03-01,Gas Mild Hybrid,0,0,0
+2019,3,2019-03-01,Gasolina Mild Hybrid,94,0,0
+2019,3,2019-03-01,Gasolina/Elèctric,1082,0,0
+2019,3,2019-03-01,Gasolina/Elèctric Endollable,54,0,0
+2019,3,2019-03-01,Total,1815,0,0
+2019,4,2019-04-01,Diesel Mild Hybrid,36,0,0
+2019,4,2019-04-01,Diesel/Elèctric,2,0,0
+2019,4,2019-04-01,Diesel/Elèctric Endollable,0,0,0
+2019,4,2019-04-01,Elèctric,423,0,0
+2019,4,2019-04-01,Gas Mild Hybrid,0,0,0
+2019,4,2019-04-01,Gasolina Mild Hybrid,96,0,0
+2019,4,2019-04-01,Gasolina/Elèctric,1000,0,0
+2019,4,2019-04-01,Gasolina/Elèctric Endollable,58,0,0
+2019,4,2019-04-01,Total,1615,0,0
+2019,5,2019-05-01,Diesel Mild Hybrid,76,0,0
+2019,5,2019-05-01,Diesel/Elèctric,0,0,0
+2019,5,2019-05-01,Diesel/Elèctric Endollable,0,0,0
+2019,5,2019-05-01,Elèctric,396,0,0
+2019,5,2019-05-01,Gas Mild Hybrid,0,0,0
+2019,5,2019-05-01,Gasolina Mild Hybrid,107,0,0
+2019,5,2019-05-01,Gasolina/Elèctric,1235,0,0
+2019,5,2019-05-01,Gasolina/Elèctric Endollable,60,0,0
+2019,5,2019-05-01,Total,1874,0,0
+2019,6,2019-06-01,Diesel Mild Hybrid,67,0,0
+2019,6,2019-06-01,Diesel/Elèctric,0,0,0
+2019,6,2019-06-01,Diesel/Elèctric Endollable,1,0,0
+2019,6,2019-06-01,Elèctric,400,0,0
+2019,6,2019-06-01,Gas Mild Hybrid,0,0,0
+2019,6,2019-06-01,Gasolina Mild Hybrid,109,0,0
+2019,6,2019-06-01,Gasolina/Elèctric,1094,0,0
+2019,6,2019-06-01,Gasolina/Elèctric Endollable,47,0,0
+2019,6,2019-06-01,Total,1718,0,0
+2019,7,2019-07-01,Diesel Mild Hybrid,169,0,0
+2019,7,2019-07-01,Diesel/Elèctric,0,0,0
+2019,7,2019-07-01,Diesel/Elèctric Endollable,1,0,0
+2019,7,2019-07-01,Elèctric,844,0,0
+2019,7,2019-07-01,Gas Mild Hybrid,0,0,0
+2019,7,2019-07-01,Gasolina Mild Hybrid,173,0,0
+2019,7,2019-07-01,Gasolina/Elèctric,1347,0,0
+2019,7,2019-07-01,Gasolina/Elèctric Endollable,50,0,0
+2019,7,2019-07-01,Total,2584,0,0
+2019,8,2019-08-01,Diesel Mild Hybrid,110,0,0
+2019,8,2019-08-01,Diesel/Elèctric,0,0,0
+2019,8,2019-08-01,Diesel/Elèctric Endollable,0,0,0
+2019,8,2019-08-01,Elèctric,192,0,0
+2019,8,2019-08-01,Gas Mild Hybrid,0,0,0
+2019,8,2019-08-01,Gasolina Mild Hybrid,63,0,0
+2019,8,2019-08-01,Gasolina/Elèctric,749,0,0
+2019,8,2019-08-01,Gasolina/Elèctric Endollable,28,0,0
+2019,8,2019-08-01,Total,1142,0,0
+2019,9,2019-09-01,Diesel Mild Hybrid,130,0,0
+2019,9,2019-09-01,Diesel/Elèctric,0,0,0
+2019,9,2019-09-01,Diesel/Elèctric Endollable,1,0,0
+2019,9,2019-09-01,Elèctric,418,0,0
+2019,9,2019-09-01,Gas Mild Hybrid,0,0,0
+2019,9,2019-09-01,Gasolina Mild Hybrid,179,0,0
+2019,9,2019-09-01,Gasolina/Elèctric,908,0,0
+2019,9,2019-09-01,Gasolina/Elèctric Endollable,49,0,0
+2019,9,2019-09-01,Total,1685,0,0
+2019,10,2019-10-01,Diesel Mild Hybrid,182,0,0
+2019,10,2019-10-01,Diesel/Elèctric,0,0,0
+2019,10,2019-10-01,Diesel/Elèctric Endollable,0,0,0
+2019,10,2019-10-01,Elèctric,472,0,0
+2019,10,2019-10-01,Gas Mild Hybrid,0,0,0
+2019,10,2019-10-01,Gasolina Mild Hybrid,220,0,0
+2019,10,2019-10-01,Gasolina/Elèctric,1182,0,0
+2019,10,2019-10-01,Gasolina/Elèctric Endollable,105,0,0
+2019,10,2019-10-01,Total,2161,0,0
+2019,11,2019-11-01,Diesel Mild Hybrid,268,0,0
+2019,11,2019-11-01,Diesel/Elèctric,1,0,0
+2019,11,2019-11-01,Diesel/Elèctric Endollable,0,0,0
+2019,11,2019-11-01,Elèctric,524,0,0
+2019,11,2019-11-01,Gas Mild Hybrid,0,0,0
+2019,11,2019-11-01,Gasolina Mild Hybrid,261,0,0
+2019,11,2019-11-01,Gasolina/Elèctric,1116,0,0
+2019,11,2019-11-01,Gasolina/Elèctric Endollable,51,0,0
+2019,11,2019-11-01,Total,2221,0,0
+2019,12,2019-12-01,Diesel Mild Hybrid,259,0,0
+2019,12,2019-12-01,Diesel/Elèctric,0,0,0
+2019,12,2019-12-01,Diesel/Elèctric Endollable,2,0,0
+2019,12,2019-12-01,Elèctric,873,0,0
+2019,12,2019-12-01,Gas Mild Hybrid,0,0,0
+2019,12,2019-12-01,Gasolina Mild Hybrid,267,0,0
+2019,12,2019-12-01,Gasolina/Elèctric,1042,0,0
+2019,12,2019-12-01,Gasolina/Elèctric Endollable,92,0,0
+2019,12,2019-12-01,Total,2535,0,0
+2020,1,2020-01-01,Diesel Mild Hybrid,175,0,0
+2020,1,2020-01-01,Diesel/Elèctric,1,0,0
+2020,1,2020-01-01,Diesel/Elèctric Endollable,1,0,0
+2020,1,2020-01-01,Elèctric,1238,0,0
+2020,1,2020-01-01,Gas Mild Hybrid,0,0,0
+2020,1,2020-01-01,Gasolina Mild Hybrid,357,0,0
+2020,1,2020-01-01,Gasolina/Elèctric,1199,0,0
+2020,1,2020-01-01,Gasolina/Elèctric Endollable,124,0,0
+2020,1,2020-01-01,Total,3095,0,0
+2020,2,2020-02-01,Diesel Mild Hybrid,169,0,0
+2020,2,2020-02-01,Diesel/Elèctric,1,0,0
+2020,2,2020-02-01,Diesel/Elèctric Endollable,1,0,0
+2020,2,2020-02-01,Elèctric,1010,0,0
+2020,2,2020-02-01,Gas Mild Hybrid,0,0,0
+2020,2,2020-02-01,Gasolina Mild Hybrid,467,0,0
+2020,2,2020-02-01,Gasolina/Elèctric,1205,0,0
+2020,2,2020-02-01,Gasolina/Elèctric Endollable,131,0,0
+2020,2,2020-02-01,Total,2984,0,0
+2020,3,2020-03-01,Diesel Mild Hybrid,84,1,0
+2020,3,2020-03-01,Diesel/Elèctric,0,1,0
+2020,3,2020-03-01,Diesel/Elèctric Endollable,2,1,0
+2020,3,2020-03-01,Elèctric,692,1,0
+2020,3,2020-03-01,Gas Mild Hybrid,0,1,0
+2020,3,2020-03-01,Gasolina Mild Hybrid,177,1,0
+2020,3,2020-03-01,Gasolina/Elèctric,603,1,0
+2020,3,2020-03-01,Gasolina/Elèctric Endollable,31,1,0
+2020,3,2020-03-01,Total,1589,1,0
+2020,4,2020-04-01,Diesel Mild Hybrid,5,1,0
+2020,4,2020-04-01,Diesel/Elèctric,0,1,0
+2020,4,2020-04-01,Diesel/Elèctric Endollable,0,1,0
+2020,4,2020-04-01,Elèctric,41,1,0
+2020,4,2020-04-01,Gas Mild Hybrid,0,1,0
+2020,4,2020-04-01,Gasolina Mild Hybrid,25,1,0
+2020,4,2020-04-01,Gasolina/Elèctric,11,1,0
+2020,4,2020-04-01,Gasolina/Elèctric Endollable,7,1,0
+2020,4,2020-04-01,Total,89,1,0
+2020,5,2020-05-01,Diesel Mild Hybrid,67,1,0
+2020,5,2020-05-01,Diesel/Elèctric,0,1,0
+2020,5,2020-05-01,Diesel/Elèctric Endollable,0,1,0
+2020,5,2020-05-01,Elèctric,109,1,0
+2020,5,2020-05-01,Gas Mild Hybrid,0,1,0
+2020,5,2020-05-01,Gasolina Mild Hybrid,191,1,0
+2020,5,2020-05-01,Gasolina/Elèctric,410,1,0
+2020,5,2020-05-01,Gasolina/Elèctric Endollable,47,1,0
+2020,5,2020-05-01,Total,824,1,0
+2020,6,2020-06-01,Diesel Mild Hybrid,151,1,0
+2020,6,2020-06-01,Diesel/Elèctric,1,1,0
+2020,6,2020-06-01,Diesel/Elèctric Endollable,0,1,0
+2020,6,2020-06-01,Elèctric,301,1,0
+2020,6,2020-06-01,Gas Mild Hybrid,0,1,0
+2020,6,2020-06-01,Gasolina Mild Hybrid,764,1,0
+2020,6,2020-06-01,Gasolina/Elèctric,962,1,0
+2020,6,2020-06-01,Gasolina/Elèctric Endollable,145,1,0
+2020,6,2020-06-01,Total,2324,1,0
+2020,7,2020-07-01,Diesel Mild Hybrid,213,1,0
+2020,7,2020-07-01,Diesel/Elèctric,0,1,0
+2020,7,2020-07-01,Diesel/Elèctric Endollable,8,1,0
+2020,7,2020-07-01,Elèctric,2227,1,0
+2020,7,2020-07-01,Gas Mild Hybrid,0,1,0
+2020,7,2020-07-01,Gasolina Mild Hybrid,958,1,0
+2020,7,2020-07-01,Gasolina/Elèctric,1507,1,0
+2020,7,2020-07-01,Gasolina/Elèctric Endollable,239,1,0
+2020,7,2020-07-01,Total,5152,1,0
+2020,8,2020-08-01,Diesel Mild Hybrid,181,1,0
+2020,8,2020-08-01,Diesel/Elèctric,2,1,0
+2020,8,2020-08-01,Diesel/Elèctric Endollable,3,1,0
+2020,8,2020-08-01,Elèctric,1814,1,0
+2020,8,2020-08-01,Gas Mild Hybrid,0,1,0
+2020,8,2020-08-01,Gasolina Mild Hybrid,415,1,0
+2020,8,2020-08-01,Gasolina/Elèctric,866,1,0
+2020,8,2020-08-01,Gasolina/Elèctric Endollable,154,1,0
+2020,8,2020-08-01,Total,3435,1,0
+2020,9,2020-09-01,Diesel Mild Hybrid,176,1,0
+2020,9,2020-09-01,Diesel/Elèctric,2,1,0
+2020,9,2020-09-01,Diesel/Elèctric Endollable,6,1,0
+2020,9,2020-09-01,Elèctric,955,1,0
+2020,9,2020-09-01,Gas Mild Hybrid,0,1,0
+2020,9,2020-09-01,Gasolina Mild Hybrid,630,1,0
+2020,9,2020-09-01,Gasolina/Elèctric,970,1,0
+2020,9,2020-09-01,Gasolina/Elèctric Endollable,228,1,0
+2020,9,2020-09-01,Total,2967,1,0
+2020,10,2020-10-01,Diesel Mild Hybrid,187,0,0
+2020,10,2020-10-01,Diesel/Elèctric,3,0,0
+2020,10,2020-10-01,Diesel/Elèctric Endollable,14,0,0
+2020,10,2020-10-01,Elèctric,819,0,0
+2020,10,2020-10-01,Gas Mild Hybrid,0,0,0
+2020,10,2020-10-01,Gasolina Mild Hybrid,641,0,0
+2020,10,2020-10-01,Gasolina/Elèctric,1146,0,0
+2020,10,2020-10-01,Gasolina/Elèctric Endollable,237,0,0
+2020,10,2020-10-01,Total,3047,0,0
+2020,11,2020-11-01,Diesel Mild Hybrid,207,0,0
+2020,11,2020-11-01,Diesel/Elèctric,6,0,0
+2020,11,2020-11-01,Diesel/Elèctric Endollable,15,0,0
+2020,11,2020-11-01,Elèctric,732,0,0
+2020,11,2020-11-01,Gas Mild Hybrid,0,0,0
+2020,11,2020-11-01,Gasolina Mild Hybrid,895,0,0
+2020,11,2020-11-01,Gasolina/Elèctric,1248,0,0
+2020,11,2020-11-01,Gasolina/Elèctric Endollable,328,0,0
+2020,11,2020-11-01,Total,3431,0,0
+2020,12,2020-12-01,Diesel Mild Hybrid,238,0,0
+2020,12,2020-12-01,Diesel/Elèctric,11,0,0
+2020,12,2020-12-01,Diesel/Elèctric Endollable,88,0,0
+2020,12,2020-12-01,Elèctric,888,0,0
+2020,12,2020-12-01,Gas Mild Hybrid,0,0,0
+2020,12,2020-12-01,Gasolina Mild Hybrid,1194,0,0
+2020,12,2020-12-01,Gasolina/Elèctric,1700,0,0
+2020,12,2020-12-01,Gasolina/Elèctric Endollable,661,0,0
+2020,12,2020-12-01,Total,4780,0,0
+2021,1,2021-01-01,Diesel Mild Hybrid,124,0,0
+2021,1,2021-01-01,Diesel/Elèctric,1,0,0
+2021,1,2021-01-01,Diesel/Elèctric Endollable,8,0,0
+2021,1,2021-01-01,Elèctric,238,0,0
+2021,1,2021-01-01,Gas Mild Hybrid,0,0,0
+2021,1,2021-01-01,Gasolina Mild Hybrid,474,0,0
+2021,1,2021-01-01,Gasolina/Elèctric,742,0,0
+2021,1,2021-01-01,Gasolina/Elèctric Endollable,208,0,0
+2021,1,2021-01-01,Total,1795,0,0
+2021,2,2021-02-01,Diesel Mild Hybrid,192,0,0
+2021,2,2021-02-01,Diesel/Elèctric,1,0,0
+2021,2,2021-02-01,Diesel/Elèctric Endollable,13,0,0
+2021,2,2021-02-01,Elèctric,354,0,0
+2021,2,2021-02-01,Gas Mild Hybrid,0,0,0
+2021,2,2021-02-01,Gasolina Mild Hybrid,542,0,0
+2021,2,2021-02-01,Gasolina/Elèctric,932,0,0
+2021,2,2021-02-01,Gasolina/Elèctric Endollable,231,0,0
+2021,2,2021-02-01,Total,2265,0,0
+2021,3,2021-03-01,Diesel Mild Hybrid,299,0,0
+2021,3,2021-03-01,Diesel/Elèctric,0,0,0
+2021,3,2021-03-01,Diesel/Elèctric Endollable,14,0,0
+2021,3,2021-03-01,Elèctric,1022,0,0
+2021,3,2021-03-01,Gas Mild Hybrid,0,0,0
+2021,3,2021-03-01,Gasolina Mild Hybrid,1198,0,0
+2021,3,2021-03-01,Gasolina/Elèctric,1265,0,0
+2021,3,2021-03-01,Gasolina/Elèctric Endollable,423,0,0
+2021,3,2021-03-01,Total,4221,0,0
+2021,4,2021-04-01,Diesel Mild Hybrid,259,0,0
+2021,4,2021-04-01,Diesel/Elèctric,0,0,0
+2021,4,2021-04-01,Diesel/Elèctric Endollable,14,0,0
+2021,4,2021-04-01,Elèctric,433,0,0
+2021,4,2021-04-01,Gas Mild Hybrid,0,0,0
+2021,4,2021-04-01,Gasolina Mild Hybrid,875,0,0
+2021,4,2021-04-01,Gasolina/Elèctric,993,0,0
+2021,4,2021-04-01,Gasolina/Elèctric Endollable,359,0,0
+2021,4,2021-04-01,Total,2933,0,0
+2021,5,2021-05-01,Diesel Mild Hybrid,196,0,0
+2021,5,2021-05-01,Diesel/Elèctric,1,0,0
+2021,5,2021-05-01,Diesel/Elèctric Endollable,10,0,0
+2021,5,2021-05-01,Elèctric,504,0,0
+2021,5,2021-05-01,Gas Mild Hybrid,0,0,0
+2021,5,2021-05-01,Gasolina Mild Hybrid,1250,0,0
+2021,5,2021-05-01,Gasolina/Elèctric,1259,0,0
+2021,5,2021-05-01,Gasolina/Elèctric Endollable,478,0,0
+2021,5,2021-05-01,Total,3698,0,0
+2021,6,2021-06-01,Diesel Mild Hybrid,313,0,1
+2021,6,2021-06-01,Diesel/Elèctric,0,0,1
+2021,6,2021-06-01,Diesel/Elèctric Endollable,6,0,1
+2021,6,2021-06-01,Elèctric,1023,0,1
+2021,6,2021-06-01,Gas Mild Hybrid,0,0,1
+2021,6,2021-06-01,Gasolina Mild Hybrid,1108,0,1
+2021,6,2021-06-01,Gasolina/Elèctric,1419,0,1
+2021,6,2021-06-01,Gasolina/Elèctric Endollable,507,0,1
+2021,6,2021-06-01,Total,4376,0,1
+2021,7,2021-07-01,Diesel Mild Hybrid,344,0,1
+2021,7,2021-07-01,Diesel/Elèctric,1,0,1
+2021,7,2021-07-01,Diesel/Elèctric Endollable,11,0,1
+2021,7,2021-07-01,Elèctric,540,0,1
+2021,7,2021-07-01,Gas Mild Hybrid,0,0,1
+2021,7,2021-07-01,Gasolina Mild Hybrid,1144,0,1
+2021,7,2021-07-01,Gasolina/Elèctric,1465,0,1
+2021,7,2021-07-01,Gasolina/Elèctric Endollable,515,0,1
+2021,7,2021-07-01,Total,4020,0,1
+2021,8,2021-08-01,Diesel Mild Hybrid,158,0,1
+2021,8,2021-08-01,Diesel/Elèctric,2,0,1
+2021,8,2021-08-01,Diesel/Elèctric Endollable,7,0,1
+2021,8,2021-08-01,Elèctric,422,0,1
+2021,8,2021-08-01,Gas Mild Hybrid,0,0,1
+2021,8,2021-08-01,Gasolina Mild Hybrid,780,0,1
+2021,8,2021-08-01,Gasolina/Elèctric,1041,0,1
+2021,8,2021-08-01,Gasolina/Elèctric Endollable,373,0,1
+2021,8,2021-08-01,Total,2783,0,1
+2021,9,2021-09-01,Diesel Mild Hybrid,211,0,1
+2021,9,2021-09-01,Diesel/Elèctric,1,0,1
+2021,9,2021-09-01,Diesel/Elèctric Endollable,10,0,1
+2021,9,2021-09-01,Elèctric,976,0,1
+2021,9,2021-09-01,Gas Mild Hybrid,0,0,1
+2021,9,2021-09-01,Gasolina Mild Hybrid,916,0,1
+2021,9,2021-09-01,Gasolina/Elèctric,1042,0,1
+2021,9,2021-09-01,Gasolina/Elèctric Endollable,464,0,1
+2021,9,2021-09-01,Total,3620,0,1
+2021,10,2021-10-01,Diesel Mild Hybrid,264,0,1
+2021,10,2021-10-01,Diesel/Elèctric,1,0,1
+2021,10,2021-10-01,Diesel/Elèctric Endollable,15,0,1
+2021,10,2021-10-01,Elèctric,760,0,1
+2021,10,2021-10-01,Gas Mild Hybrid,0,0,1
+2021,10,2021-10-01,Gasolina Mild Hybrid,968,0,1
+2021,10,2021-10-01,Gasolina/Elèctric,1213,0,1
+2021,10,2021-10-01,Gasolina/Elèctric Endollable,583,0,1
+2021,10,2021-10-01,Total,3804,0,1
+2021,11,2021-11-01,Diesel Mild Hybrid,284,0,1
+2021,11,2021-11-01,Diesel/Elèctric,2,0,1
+2021,11,2021-11-01,Diesel/Elèctric Endollable,11,0,1
+2021,11,2021-11-01,Elèctric,865,0,1
+2021,11,2021-11-01,Gas Mild Hybrid,0,0,1
+2021,11,2021-11-01,Gasolina Mild Hybrid,924,0,1
+2021,11,2021-11-01,Gasolina/Elèctric,1295,0,1
+2021,11,2021-11-01,Gasolina/Elèctric Endollable,532,0,1
+2021,11,2021-11-01,Total,3913,0,1
+2021,12,2021-12-01,Diesel Mild Hybrid,300,0,1
+2021,12,2021-12-01,Diesel/Elèctric,5,0,1
+2021,12,2021-12-01,Diesel/Elèctric Endollable,13,0,1
+2021,12,2021-12-01,Elèctric,1222,0,1
+2021,12,2021-12-01,Gas Mild Hybrid,0,0,1
+2021,12,2021-12-01,Gasolina Mild Hybrid,1423,0,1
+2021,12,2021-12-01,Gasolina/Elèctric,1504,0,1
+2021,12,2021-12-01,Gasolina/Elèctric Endollable,647,0,1
+2021,12,2021-12-01,Total,5114,0,1
+2022,1,2022-01-01,Diesel Mild Hybrid,114,0,1
+2022,1,2022-01-01,Diesel/Elèctric,0,0,1
+2022,1,2022-01-01,Diesel/Elèctric Endollable,13,0,1
+2022,1,2022-01-01,Elèctric,1321,0,1
+2022,1,2022-01-01,Gas Mild Hybrid,0,0,1
+2022,1,2022-01-01,Gasolina Mild Hybrid,751,0,1
+2022,1,2022-01-01,Gasolina/Elèctric,1176,0,1
+2022,1,2022-01-01,Gasolina/Elèctric Endollable,462,0,1
+2022,1,2022-01-01,Total,3837,0,1
+2022,2,2022-02-01,Diesel Mild Hybrid,154,0,1
+2022,2,2022-02-01,Diesel/Elèctric,7,0,1
+2022,2,2022-02-01,Diesel/Elèctric Endollable,8,0,1
+2022,2,2022-02-01,Elèctric,980,0,1
+2022,2,2022-02-01,Gas Mild Hybrid,0,0,1
+2022,2,2022-02-01,Gasolina Mild Hybrid,1049,0,1
+2022,2,2022-02-01,Gasolina/Elèctric,1388,0,1
+2022,2,2022-02-01,Gasolina/Elèctric Endollable,467,0,1
+2022,2,2022-02-01,Total,4053,0,1
+2022,3,2022-03-01,Diesel Mild Hybrid,179,0,1
+2022,3,2022-03-01,Diesel/Elèctric,0,0,1
+2022,3,2022-03-01,Diesel/Elèctric Endollable,12,0,1
+2022,3,2022-03-01,Elèctric,1383,0,1
+2022,3,2022-03-01,Gas Mild Hybrid,0,0,1
+2022,3,2022-03-01,Gasolina Mild Hybrid,1173,0,1
+2022,3,2022-03-01,Gasolina/Elèctric,1046,0,1
+2022,3,2022-03-01,Gasolina/Elèctric Endollable,443,0,1
+2022,3,2022-03-01,Total,4236,0,1
+2022,4,2022-04-01,Diesel Mild Hybrid,244,0,1
+2022,4,2022-04-01,Diesel/Elèctric,1,0,1
+2022,4,2022-04-01,Diesel/Elèctric Endollable,15,0,1
+2022,4,2022-04-01,Elèctric,662,0,1
+2022,4,2022-04-01,Gas Mild Hybrid,0,0,1
+2022,4,2022-04-01,Gasolina Mild Hybrid,1198,0,1
+2022,4,2022-04-01,Gasolina/Elèctric,1092,0,1
+2022,4,2022-04-01,Gasolina/Elèctric Endollable,595,0,1
+2022,4,2022-04-01,Total,3807,0,1
+2022,5,2022-05-01,Diesel Mild Hybrid,303,0,1
+2022,5,2022-05-01,Diesel/Elèctric,2,0,1
+2022,5,2022-05-01,Diesel/Elèctric Endollable,22,0,1
+2022,5,2022-05-01,Elèctric,816,0,1
+2022,5,2022-05-01,Gas Mild Hybrid,0,0,1
+2022,5,2022-05-01,Gasolina Mild Hybrid,1402,0,1
+2022,5,2022-05-01,Gasolina/Elèctric,1681,0,1
+2022,5,2022-05-01,Gasolina/Elèctric Endollable,577,0,1
+2022,5,2022-05-01,Total,4803,0,1
+2022,6,2022-06-01,Diesel Mild Hybrid,273,0,1
+2022,6,2022-06-01,Diesel/Elèctric,0,0,1
+2022,6,2022-06-01,Diesel/Elèctric Endollable,18,0,1
+2022,6,2022-06-01,Elèctric,1343,0,1
+2022,6,2022-06-01,Gas Mild Hybrid,0,0,1
+2022,6,2022-06-01,Gasolina Mild Hybrid,1169,0,1
+2022,6,2022-06-01,Gasolina/Elèctric,1437,0,1
+2022,6,2022-06-01,Gasolina/Elèctric Endollable,485,0,1
+2022,6,2022-06-01,Total,4725,0,1
+2022,7,2022-07-01,Diesel Mild Hybrid,273,0,1
+2022,7,2022-07-01,Diesel/Elèctric,1,0,1
+2022,7,2022-07-01,Diesel/Elèctric Endollable,15,0,1
+2022,7,2022-07-01,Elèctric,1000,0,1
+2022,7,2022-07-01,Gas Mild Hybrid,0,0,1
+2022,7,2022-07-01,Gasolina Mild Hybrid,1169,0,1
+2022,7,2022-07-01,Gasolina/Elèctric,1472,0,1
+2022,7,2022-07-01,Gasolina/Elèctric Endollable,449,0,1
+2022,7,2022-07-01,Total,4379,0,1
+2022,8,2022-08-01,Diesel Mild Hybrid,167,0,1
+2022,8,2022-08-01,Diesel/Elèctric,0,0,1
+2022,8,2022-08-01,Diesel/Elèctric Endollable,8,0,1
+2022,8,2022-08-01,Elèctric,610,0,1
+2022,8,2022-08-01,Gas Mild Hybrid,0,0,1
+2022,8,2022-08-01,Gasolina Mild Hybrid,829,0,1
+2022,8,2022-08-01,Gasolina/Elèctric,1032,0,1
+2022,8,2022-08-01,Gasolina/Elèctric Endollable,420,0,1
+2022,8,2022-08-01,Total,3066,0,1
+2022,9,2022-09-01,Diesel Mild Hybrid,265,0,1
+2022,9,2022-09-01,Diesel/Elèctric,0,0,1
+2022,9,2022-09-01,Diesel/Elèctric Endollable,4,0,1
+2022,9,2022-09-01,Elèctric,1064,0,1
+2022,9,2022-09-01,Gas Mild Hybrid,0,0,1
+2022,9,2022-09-01,Gasolina Mild Hybrid,993,0,1
+2022,9,2022-09-01,Gasolina/Elèctric,1583,0,1
+2022,9,2022-09-01,Gasolina/Elèctric Endollable,694,0,1
+2022,9,2022-09-01,Total,4603,0,1
+2022,10,2022-10-01,Diesel Mild Hybrid,233,0,1
+2022,10,2022-10-01,Diesel/Elèctric,0,0,1
+2022,10,2022-10-01,Diesel/Elèctric Endollable,16,0,1
+2022,10,2022-10-01,Elèctric,806,0,1
+2022,10,2022-10-01,Gas Mild Hybrid,0,0,1
+2022,10,2022-10-01,Gasolina Mild Hybrid,1312,0,1
+2022,10,2022-10-01,Gasolina/Elèctric,1505,0,1
+2022,10,2022-10-01,Gasolina/Elèctric Endollable,651,0,1
+2022,10,2022-10-01,Total,4523,0,1
+2022,11,2022-11-01,Diesel Mild Hybrid,211,0,1
+2022,11,2022-11-01,Diesel/Elèctric,0,0,1
+2022,11,2022-11-01,Diesel/Elèctric Endollable,2,0,1
+2022,11,2022-11-01,Elèctric,963,0,1
+2022,11,2022-11-01,Gas Mild Hybrid,0,0,1
+2022,11,2022-11-01,Gasolina Mild Hybrid,1180,0,1
+2022,11,2022-11-01,Gasolina/Elèctric,1965,0,1
+2022,11,2022-11-01,Gasolina/Elèctric Endollable,727,0,1
+2022,11,2022-11-01,Total,5048,0,1
+2022,12,2022-12-01,Diesel Mild Hybrid,279,0,1
+2022,12,2022-12-01,Diesel/Elèctric,1,0,1
+2022,12,2022-12-01,Diesel/Elèctric Endollable,9,0,1
+2022,12,2022-12-01,Elèctric,872,0,1
+2022,12,2022-12-01,Gas Mild Hybrid,0,0,1
+2022,12,2022-12-01,Gasolina Mild Hybrid,1191,0,1
+2022,12,2022-12-01,Gasolina/Elèctric,1602,0,1
+2022,12,2022-12-01,Gasolina/Elèctric Endollable,669,0,1
+2022,12,2022-12-01,Total,4623,0,1
+2023,1,2023-01-01,Diesel Mild Hybrid,220,0,1
+2023,1,2023-01-01,Diesel/Elèctric,2,0,1
+2023,1,2023-01-01,Diesel/Elèctric Endollable,25,0,1
+2023,1,2023-01-01,Elèctric,871,0,1
+2023,1,2023-01-01,Gas Mild Hybrid,0,0,1
+2023,1,2023-01-01,Gasolina Mild Hybrid,1192,0,1
+2023,1,2023-01-01,Gasolina/Elèctric,1573,0,1
+2023,1,2023-01-01,Gasolina/Elèctric Endollable,736,0,1
+2023,1,2023-01-01,Total,4619,0,1
+2023,2,2023-02-01,Diesel Mild Hybrid,185,0,1
+2023,2,2023-02-01,Diesel/Elèctric,0,0,1
+2023,2,2023-02-01,Diesel/Elèctric Endollable,25,0,1
+2023,2,2023-02-01,Elèctric,941,0,1
+2023,2,2023-02-01,Gas Mild Hybrid,0,0,1
+2023,2,2023-02-01,Gasolina Mild Hybrid,1107,0,1
+2023,2,2023-02-01,Gasolina/Elèctric,1593,0,1
+2023,2,2023-02-01,Gasolina/Elèctric Endollable,742,0,1
+2023,2,2023-02-01,Total,4593,0,1
+2023,3,2023-03-01,Diesel Mild Hybrid,305,0,1
+2023,3,2023-03-01,Diesel/Elèctric,1,0,1
+2023,3,2023-03-01,Diesel/Elèctric Endollable,15,0,1
+2023,3,2023-03-01,Elèctric,1120,0,1
+2023,3,2023-03-01,Gas Mild Hybrid,0,0,1
+2023,3,2023-03-01,Gasolina Mild Hybrid,1570,0,1
+2023,3,2023-03-01,Gasolina/Elèctric,1646,0,1
+2023,3,2023-03-01,Gasolina/Elèctric Endollable,545,0,1
+2023,3,2023-03-01,Total,5202,0,1
+2023,4,2023-04-01,Diesel Mild Hybrid,279,0,1
+2023,4,2023-04-01,Diesel/Elèctric,0,0,1
+2023,4,2023-04-01,Diesel/Elèctric Endollable,12,0,1
+2023,4,2023-04-01,Elèctric,798,0,1
+2023,4,2023-04-01,Gas Mild Hybrid,0,0,1
+2023,4,2023-04-01,Gasolina Mild Hybrid,1125,0,1
+2023,4,2023-04-01,Gasolina/Elèctric,1406,0,1
+2023,4,2023-04-01,Gasolina/Elèctric Endollable,382,0,1
+2023,4,2023-04-01,Total,4002,0,1
+2023,5,2023-05-01,Diesel Mild Hybrid,306,0,1
+2023,5,2023-05-01,Diesel/Elèctric,0,0,1
+2023,5,2023-05-01,Diesel/Elèctric Endollable,8,0,1
+2023,5,2023-05-01,Elèctric,1078,0,1
+2023,5,2023-05-01,Gas Mild Hybrid,0,0,1
+2023,5,2023-05-01,Gasolina Mild Hybrid,1567,0,1
+2023,5,2023-05-01,Gasolina/Elèctric,2025,0,1
+2023,5,2023-05-01,Gasolina/Elèctric Endollable,985,0,1
+2023,5,2023-05-01,Total,5969,0,1
+2023,6,2023-06-01,Diesel Mild Hybrid,274,0,1
+2023,6,2023-06-01,Diesel/Elèctric,0,0,1
+2023,6,2023-06-01,Diesel/Elèctric Endollable,8,0,1
+2023,6,2023-06-01,Elèctric,1281,0,1
+2023,6,2023-06-01,Gas Mild Hybrid,0,0,1
+2023,6,2023-06-01,Gasolina Mild Hybrid,1466,0,1
+2023,6,2023-06-01,Gasolina/Elèctric,2020,0,1
+2023,6,2023-06-01,Gasolina/Elèctric Endollable,894,0,1
+2023,6,2023-06-01,Total,5943,0,1
+2023,7,2023-07-01,Diesel Mild Hybrid,264,0,1
+2023,7,2023-07-01,Diesel/Elèctric,0,0,1
+2023,7,2023-07-01,Diesel/Elèctric Endollable,7,0,1
+2023,7,2023-07-01,Elèctric,911,0,1
+2023,7,2023-07-01,Gas Mild Hybrid,0,0,1
+2023,7,2023-07-01,Gasolina Mild Hybrid,1172,0,1
+2023,7,2023-07-01,Gasolina/Elèctric,1917,0,1
+2023,7,2023-07-01,Gasolina/Elèctric Endollable,674,0,1
+2023,7,2023-07-01,Total,4945,0,1
+2023,8,2023-08-01,Diesel Mild Hybrid,231,0,1
+2023,8,2023-08-01,Diesel/Elèctric,0,0,1
+2023,8,2023-08-01,Diesel/Elèctric Endollable,8,0,1
+2023,8,2023-08-01,Elèctric,785,0,1
+2023,8,2023-08-01,Gas Mild Hybrid,0,0,1
+2023,8,2023-08-01,Gasolina Mild Hybrid,1052,0,1
+2023,8,2023-08-01,Gasolina/Elèctric,1388,0,1
+2023,8,2023-08-01,Gasolina/Elèctric Endollable,442,0,1
+2023,8,2023-08-01,Total,3906,0,1
+2023,9,2023-09-01,Diesel Mild Hybrid,277,0,1
+2023,9,2023-09-01,Diesel/Elèctric,0,0,1
+2023,9,2023-09-01,Diesel/Elèctric Endollable,13,0,1
+2023,9,2023-09-01,Elèctric,758,0,1
+2023,9,2023-09-01,Gas Mild Hybrid,0,0,1
+2023,9,2023-09-01,Gasolina Mild Hybrid,1417,0,1
+2023,9,2023-09-01,Gasolina/Elèctric,1472,0,1
+2023,9,2023-09-01,Gasolina/Elèctric Endollable,508,0,1
+2023,9,2023-09-01,Total,4445,0,1
+2023,10,2023-10-01,Diesel Mild Hybrid,378,0,1
+2023,10,2023-10-01,Diesel/Elèctric,0,0,1
+2023,10,2023-10-01,Diesel/Elèctric Endollable,19,0,1
+2023,10,2023-10-01,Elèctric,1311,0,1
+2023,10,2023-10-01,Gas Mild Hybrid,0,0,1
+2023,10,2023-10-01,Gasolina Mild Hybrid,1685,0,1
+2023,10,2023-10-01,Gasolina/Elèctric,1865,0,1
+2023,10,2023-10-01,Gasolina/Elèctric Endollable,642,0,1
+2023,10,2023-10-01,Total,5900,0,1
+2023,11,2023-11-01,Diesel Mild Hybrid,280,0,1
+2023,11,2023-11-01,Diesel/Elèctric,0,0,1
+2023,11,2023-11-01,Diesel/Elèctric Endollable,17,0,1
+2023,11,2023-11-01,Elèctric,1394,0,1
+2023,11,2023-11-01,Gas Mild Hybrid,0,0,1
+2023,11,2023-11-01,Gasolina Mild Hybrid,1414,0,1
+2023,11,2023-11-01,Gasolina/Elèctric,2023,0,1
+2023,11,2023-11-01,Gasolina/Elèctric Endollable,675,0,1
+2023,11,2023-11-01,Total,5803,0,1
+2023,12,2023-12-01,Diesel Mild Hybrid,293,0,1
+2023,12,2023-12-01,Diesel/Elèctric,1,0,1
+2023,12,2023-12-01,Diesel/Elèctric Endollable,25,0,1
+2023,12,2023-12-01,Elèctric,1146,0,1
+2023,12,2023-12-01,Gas Mild Hybrid,0,0,1
+2023,12,2023-12-01,Gasolina Mild Hybrid,1867,0,1
+2023,12,2023-12-01,Gasolina/Elèctric,1853,0,1
+2023,12,2023-12-01,Gasolina/Elèctric Endollable,611,0,1
+2023,12,2023-12-01,Total,5796,0,1
+2024,1,2024-01-01,Diesel Mild Hybrid,309,0,1
+2024,1,2024-01-01,Diesel/Elèctric,0,0,1
+2024,1,2024-01-01,Diesel/Elèctric Endollable,35,0,1
+2024,1,2024-01-01,Elèctric,824,0,1
+2024,1,2024-01-01,Gas Mild Hybrid,0,0,1
+2024,1,2024-01-01,Gasolina Mild Hybrid,1259,0,1
+2024,1,2024-01-01,Gasolina/Elèctric,1866,0,1
+2024,1,2024-01-01,Gasolina/Elèctric Endollable,576,0,1
+2024,1,2024-01-01,Total,4869,0,1
+2024,2,2024-02-01,Diesel Mild Hybrid,255,0,1
+2024,2,2024-02-01,Diesel/Elèctric,0,0,1
+2024,2,2024-02-01,Diesel/Elèctric Endollable,26,0,1
+2024,2,2024-02-01,Elèctric,1033,0,1
+2024,2,2024-02-01,Gas Mild Hybrid,0,0,1
+2024,2,2024-02-01,Gasolina Mild Hybrid,1536,0,1
+2024,2,2024-02-01,Gasolina/Elèctric,1879,0,1
+2024,2,2024-02-01,Gasolina/Elèctric Endollable,618,0,1
+2024,2,2024-02-01,Total,5347,0,1
+2024,3,2024-03-01,Diesel Mild Hybrid,223,0,1
+2024,3,2024-03-01,Diesel/Elèctric,0,0,1
+2024,3,2024-03-01,Diesel/Elèctric Endollable,41,0,1
+2024,3,2024-03-01,Elèctric,1008,0,1
+2024,3,2024-03-01,Gas Mild Hybrid,0,0,1
+2024,3,2024-03-01,Gasolina Mild Hybrid,1673,0,1
+2024,3,2024-03-01,Gasolina/Elèctric,1791,0,1
+2024,3,2024-03-01,Gasolina/Elèctric Endollable,630,0,1
+2024,3,2024-03-01,Total,5366,0,1
+2024,4,2024-04-01,Diesel Mild Hybrid,284,0,1
+2024,4,2024-04-01,Diesel/Elèctric,0,0,1
+2024,4,2024-04-01,Diesel/Elèctric Endollable,36,0,1
+2024,4,2024-04-01,Elèctric,937,0,1
+2024,4,2024-04-01,Gas Mild Hybrid,0,0,1
+2024,4,2024-04-01,Gasolina Mild Hybrid,1460,0,1
+2024,4,2024-04-01,Gasolina/Elèctric,2024,0,1
+2024,4,2024-04-01,Gasolina/Elèctric Endollable,619,0,1
+2024,4,2024-04-01,Total,5360,0,1
+2024,5,2024-05-01,Diesel Mild Hybrid,228,0,1
+2024,5,2024-05-01,Diesel/Elèctric,1,0,1
+2024,5,2024-05-01,Diesel/Elèctric Endollable,31,0,1
+2024,5,2024-05-01,Elèctric,939,0,1
+2024,5,2024-05-01,Gas Mild Hybrid,0,0,1
+2024,5,2024-05-01,Gasolina Mild Hybrid,1679,0,1
+2024,5,2024-05-01,Gasolina/Elèctric,2011,0,1
+2024,5,2024-05-01,Gasolina/Elèctric Endollable,633,0,1
+2024,5,2024-05-01,Total,5522,0,1
+2024,6,2024-06-01,Diesel Mild Hybrid,294,0,1
+2024,6,2024-06-01,Diesel/Elèctric,1,0,1
+2024,6,2024-06-01,Diesel/Elèctric Endollable,34,0,1
+2024,6,2024-06-01,Elèctric,1260,0,1
+2024,6,2024-06-01,Gas Mild Hybrid,0,0,1
+2024,6,2024-06-01,Gasolina Mild Hybrid,2186,0,1
+2024,6,2024-06-01,Gasolina/Elèctric,2177,0,1
+2024,6,2024-06-01,Gasolina/Elèctric Endollable,680,0,1
+2024,6,2024-06-01,Total,6632,0,1
+2024,7,2024-07-01,Diesel Mild Hybrid,295,0,1
+2024,7,2024-07-01,Diesel/Elèctric,0,0,1
+2024,7,2024-07-01,Diesel/Elèctric Endollable,41,0,1
+2024,7,2024-07-01,Elèctric,1061,0,1
+2024,7,2024-07-01,Gas Mild Hybrid,0,0,1
+2024,7,2024-07-01,Gasolina Mild Hybrid,2085,0,1
+2024,7,2024-07-01,Gasolina/Elèctric,2640,0,1
+2024,7,2024-07-01,Gasolina/Elèctric Endollable,812,0,1
+2024,7,2024-07-01,Total,6934,0,1
+2024,8,2024-08-01,Diesel Mild Hybrid,213,0,1
+2024,8,2024-08-01,Diesel/Elèctric,0,0,1
+2024,8,2024-08-01,Diesel/Elèctric Endollable,34,0,1
+2024,8,2024-08-01,Elèctric,655,0,1
+2024,8,2024-08-01,Gas Mild Hybrid,0,0,1
+2024,8,2024-08-01,Gasolina Mild Hybrid,1241,0,1
+2024,8,2024-08-01,Gasolina/Elèctric,1532,0,1
+2024,8,2024-08-01,Gasolina/Elèctric Endollable,407,0,1
+2024,8,2024-08-01,Total,4082,0,1
+2024,9,2024-09-01,Diesel Mild Hybrid,233,0,1
+2024,9,2024-09-01,Diesel/Elèctric,0,0,1
+2024,9,2024-09-01,Diesel/Elèctric Endollable,31,0,1
+2024,9,2024-09-01,Elèctric,1419,0,1
+2024,9,2024-09-01,Gas Mild Hybrid,0,0,1
+2024,9,2024-09-01,Gasolina Mild Hybrid,1825,0,1
+2024,9,2024-09-01,Gasolina/Elèctric,1842,0,1
+2024,9,2024-09-01,Gasolina/Elèctric Endollable,484,0,1
+2024,9,2024-09-01,Total,5834,0,1
+2024,10,2024-10-01,Diesel Mild Hybrid,302,0,1
+2024,10,2024-10-01,Diesel/Elèctric,0,0,1
+2024,10,2024-10-01,Diesel/Elèctric Endollable,23,0,1
+2024,10,2024-10-01,Elèctric,1266,0,1
+2024,10,2024-10-01,Gas Mild Hybrid,0,0,1
+2024,10,2024-10-01,Gasolina Mild Hybrid,2090,0,1
+2024,10,2024-10-01,Gasolina/Elèctric,2783,0,1
+2024,10,2024-10-01,Gasolina/Elèctric Endollable,847,0,1
+2024,10,2024-10-01,Total,7311,0,1
+2024,11,2024-11-01,Diesel Mild Hybrid,293,0,1
+2024,11,2024-11-01,Diesel/Elèctric,0,0,1
+2024,11,2024-11-01,Diesel/Elèctric Endollable,22,0,1
+2024,11,2024-11-01,Elèctric,1176,0,1
+2024,11,2024-11-01,Gas Mild Hybrid,0,0,1
+2024,11,2024-11-01,Gasolina Mild Hybrid,1813,0,1
+2024,11,2024-11-01,Gasolina/Elèctric,2374,0,1
+2024,11,2024-11-01,Gasolina/Elèctric Endollable,652,0,1
+2024,11,2024-11-01,Total,6330,0,1
+2024,12,2024-12-01,Diesel Mild Hybrid,352,0,1
+2024,12,2024-12-01,Diesel/Elèctric,1,0,1
+2024,12,2024-12-01,Diesel/Elèctric Endollable,37,0,1
+2024,12,2024-12-01,Elèctric,1823,0,1
+2024,12,2024-12-01,Gas Mild Hybrid,0,0,1
+2024,12,2024-12-01,Gasolina Mild Hybrid,2288,0,1
+2024,12,2024-12-01,Gasolina/Elèctric,2891,0,1
+2024,12,2024-12-01,Gasolina/Elèctric Endollable,781,0,1
+2024,12,2024-12-01,Total,8173,0,1

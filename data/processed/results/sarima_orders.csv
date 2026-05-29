@@ -1,0 +1,8 @@
+Tecnologia,order,seasonal_order
+Elèctric,"(3, 1, 1)","(2, 1, 0, 12)"
+Gasolina Mild Hybrid,"(1, 1, 3)","(0, 1, 1, 12)"
+Gasolina/Elèctric,"(0, 1, 1)","(0, 1, 1, 12)"
+Gasolina/Elèctric Endollable,"(2, 1, 1)","(0, 1, 1, 12)"
+Diesel Mild Hybrid,"(0, 1, 2)","(2, 1, 0, 12)"
+Diesel/Elèctric Endollable,"(0, 1, 1)","(2, 1, 0, 12)"
+Total,"(0, 1, 1)","(0, 1, 1, 12)"
