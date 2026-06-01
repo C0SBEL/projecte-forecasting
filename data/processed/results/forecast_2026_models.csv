@@ -1,0 +1,8 @@
+Tecnologia,Model,MASE backtest,Detall
+Elèctric,ETS_Multiplicatiu,1.22,"α=0.14, β=0.00, γ=0.00"
+Gasolina Mild Hybrid,AutoSARIMA,0.56,"SARIMA(2, 1, 2)x(0, 1, 1, 12)"
+Gasolina/Elèctric,ETS_Multiplicatiu,0.55,"α=0.04, β=0.00, γ=0.05"
+Gasolina/Elèctric Endollable,OLS_Estacional,3.97,"β_t=+11.55 un./mes, σ=199"
+Diesel Mild Hybrid,AutoSARIMA,0.56,"SARIMA(0, 1, 2)x(0, 1, 1, 12)"
+Diesel/Elèctric Endollable,AutoSARIMA,1.5,"SARIMA(2, 1, 1)x(2, 1, 0, 12)"
+Total,AutoSARIMA_log,0.42,"SARIMA(0, 1, 1)x(2, 1, 0, 12) [log]"
