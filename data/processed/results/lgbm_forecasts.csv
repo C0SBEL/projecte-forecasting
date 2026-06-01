@@ -59,18 +59,18 @@ date,Tecnologia,Model,predicted,actual
 2025-10-01,Diesel Mild Hybrid,LightGBM,284.76353194295956,338
 2025-11-01,Diesel Mild Hybrid,LightGBM,265.4447610730434,241
 2025-12-01,Diesel Mild Hybrid,LightGBM,342.045386773149,299
-2025-01-01,Diesel/Elèctric Endollable,LightGBM,18.8995346923988,35
-2025-02-01,Diesel/Elèctric Endollable,LightGBM,27.10833844629228,20
-2025-03-01,Diesel/Elèctric Endollable,LightGBM,26.47501792470395,31
-2025-04-01,Diesel/Elèctric Endollable,LightGBM,23.632599260406927,37
-2025-05-01,Diesel/Elèctric Endollable,LightGBM,21.345070320707705,47
-2025-06-01,Diesel/Elèctric Endollable,LightGBM,21.40763593094649,40
-2025-07-01,Diesel/Elèctric Endollable,LightGBM,23.01323375203839,60
-2025-08-01,Diesel/Elèctric Endollable,LightGBM,13.941038195060457,32
-2025-09-01,Diesel/Elèctric Endollable,LightGBM,14.249535607388799,71
-2025-10-01,Diesel/Elèctric Endollable,LightGBM,18.86917360834586,58
+2025-01-01,Diesel/Elèctric Endollable,LightGBM,21.70048809393032,35
+2025-02-01,Diesel/Elèctric Endollable,LightGBM,27.523170883316276,20
+2025-03-01,Diesel/Elèctric Endollable,LightGBM,25.833074724078553,31
+2025-04-01,Diesel/Elèctric Endollable,LightGBM,23.431319915136235,37
+2025-05-01,Diesel/Elèctric Endollable,LightGBM,21.439576312231548,47
+2025-06-01,Diesel/Elèctric Endollable,LightGBM,21.261381217305246,40
+2025-07-01,Diesel/Elèctric Endollable,LightGBM,22.970559810746924,60
+2025-08-01,Diesel/Elèctric Endollable,LightGBM,14.375791937853432,32
+2025-09-01,Diesel/Elèctric Endollable,LightGBM,13.962708312976133,71
+2025-10-01,Diesel/Elèctric Endollable,LightGBM,18.849955686514047,58
 2025-11-01,Diesel/Elèctric Endollable,LightGBM,19.35379685704656,52
-2025-12-01,Diesel/Elèctric Endollable,LightGBM,35.371474035101976,43
+2025-12-01,Diesel/Elèctric Endollable,LightGBM,35.09803883799178,43
 2025-01-01,Total,LightGBM,6196.446219397947,6448
 2025-02-01,Total,LightGBM,6213.082044130326,6718
 2025-03-01,Total,LightGBM,5982.22008589562,7741

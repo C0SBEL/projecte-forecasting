@@ -120,7 +120,7 @@ class SARIMAForecaster(BaseForecaster):
         return self
 
     def predict(self, h: int, exog_future=None, **kwargs) -> np.ndarray:
-        return self._model.predict(n_periods=h, exogenous=exog_future)
+        return np.asarray(self._model.predict(n_periods=h, exogenous=exog_future))
 
     def summary(self):
         return self._model.summary()

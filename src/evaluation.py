@@ -67,6 +67,43 @@ def walk_forward_cv(series: pd.Series, model_fn, initial: int = 48,
     return pd.DataFrame(results)
 
 
+def walk_forward_cv_full(series: pd.Series, model_fn, initial: int = 60,
+                         step: int = 3, horizon: int = 12) -> tuple:
+    """Expanding-window WFV that returns both per-fold metrics AND per-(fold, horizon) forecasts.
+
+    Returns (metrics_df, forecasts_df):
+      metrics_df:   one row per fold with RMSE, MAE, MAPE, MASE, fold_start, n_train
+      forecasts_df: one row per (fold, h) with fold_start, h, date, predicted, actual
+    """
+    n = len(series)
+    metric_rows, forecast_rows = [], []
+    for start in range(initial, n - horizon + 1, step):
+        train = series.iloc[:start]
+        test  = series.iloc[start:start + horizon]
+        try:
+            y_pred = np.asarray(model_fn(train), dtype=float)
+            y_true = test.values
+            m = compute_metrics(y_true, y_pred, train.values)
+            m['fold_start'] = series.index[start]
+            m['n_train']    = start
+            metric_rows.append(m)
+            for h in range(horizon):
+                forecast_rows.append({
+                    'fold_start': series.index[start],
+                    'h':          h + 1,
+                    'date':       test.index[h],
+                    'predicted':  float(y_pred[h]),
+                    'actual':     float(y_true[h]),
+                })
+        except Exception as e:
+            metric_rows.append({
+                'fold_start': series.index[start],
+                'n_train':    start,
+                'error':      str(e),
+            })
+    return pd.DataFrame(metric_rows), pd.DataFrame(forecast_rows)
+
+
 def diebold_mariano_test(e1: np.ndarray, e2: np.ndarray,
                          h: int = 1, power: int = 2) -> tuple:
     """
