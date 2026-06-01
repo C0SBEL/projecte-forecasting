@@ -41,8 +41,8 @@ Gasolina/Elèctric Endollable,LSTM,259.72,210.26,25.14,1.7
 Gasolina/Elèctric Endollable,LightGBM,293.27,239.46,27.74,1.94
 Gasolina/Elèctric Endollable,SeasonalNaive,284.67,233.26,27.18,1.89
 Gasolina/Elèctric Endollable,TBATS,268.23,224.57,28.02,1.81
-Total,AutoSARIMA,826.31,702.87,11.88,0.82
-Total,ETS_Additiu,805.58,676.51,11.21,0.79
+Total,AutoSARIMA,1335.97,1111.27,21.24,1.29
+Total,ETS_Additiu,979.37,828.94,15.7,0.97
 Total,ETS_Multiplicatiu,1441.04,1305.84,22.14,1.52
 Total,LSTM,1121.51,935.89,15.92,1.1
 Total,LightGBM,1494.06,1280.27,20.86,1.5
