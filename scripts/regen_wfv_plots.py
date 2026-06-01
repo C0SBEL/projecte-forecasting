@@ -98,8 +98,8 @@ def main():
                              ms=4, label=model_name))
     axes_flat[-1].legend(handles=legend, loc='center', fontsize=11,
                          title='predicció h=1 per fold')
-    plt.suptitle('Baselines — Walk-forward per tecnologia '
-                 '(predicció a un mes vista, 13 folds)', fontsize=13, y=1.0)
+    plt.suptitle('Baselines: Walk-forward per tecnologia '
+                 '(h=1 per fold, 13 origins)', fontsize=13, y=1.0)
     plt.tight_layout()
     plt.savefig(FIGURES_DIR / 'fig_baseline_wfv_per_tech.png', bbox_inches='tight')
     plt.close('all')

@@ -76,9 +76,9 @@ def plot_wfv_per_tech(pivot_full, df_wfv_forecasts, df_wfv_metrics_agg,
                       color_pred='#7b2d8b'):
     """4x2 grid: per-tech WFV visualization, h=1 only.
 
-    For each tech: real series (full history) + 13 punts h=1 connectats
-    (la predicció a un mes vista a cada origin del WFV). Títol amb les 4
-    mètriques mitjanes sobre folds. Net i interpretable.
+    Per cada tech: sèrie real al fons + 13 punts h=1 connectats (la
+    predicció a un mes vista a cada origin del WFV). Títol amb les 4
+    mètriques mitjanes sobre folds.
     """
     fig, axes = plt.subplots(4, 2, figsize=(14, 18))
     axes_flat = axes.flatten()
@@ -95,7 +95,7 @@ def plot_wfv_per_tech(pivot_full, df_wfv_forecasts, df_wfv_metrics_agg,
         ].sort_values('date')
         ax.plot(pd.to_datetime(sub['date']), sub['predicted'],
                 color=color_pred, lw=1.5, ls='--', marker='o', ms=5,
-                label=f'{model_name} (h=1 per fold)')
+                label=f'{model_name} h=1 per fold')
 
         row = df_wfv_metrics_agg[df_wfv_metrics_agg['Tecnologia'] == tech]
         if len(row):
@@ -111,11 +111,11 @@ def plot_wfv_per_tech(pivot_full, df_wfv_forecasts, df_wfv_metrics_agg,
             handles = [
                 Line2D([0], [0], color='#2c7bb6', lw=2, label='Observat'),
                 Line2D([0], [0], color=color_pred, lw=1.5, ls='--', marker='o',
-                       ms=5, label=f'{model_name} — predicció h=1 per fold'),
+                       ms=5, label=f'{model_name} h=1 per fold'),
             ]
             axes_flat[j].legend(handles=handles, loc='center', fontsize=10)
 
-    plt.suptitle(f'{model_name} — Walk-forward per tecnologia '
+    plt.suptitle(f'{model_name}: Walk-forward per tecnologia '
                  f'(predicció a un mes vista, 13 folds)', fontsize=13, y=1.0)
     plt.tight_layout()
     if save_path is not None:
