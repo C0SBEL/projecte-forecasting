@@ -1,0 +1,8 @@
+Tecnologia,α (nivell),β (tendència),γ (estacional),AIC,BIC
+Elèctric,0.0,0.0,0.0,1270.1,1313.0
+Gasolina Mild Hybrid,0.232,0.0,0.336,1161.1,1204.0
+Gasolina/Elèctric,0.105,0.105,0.0,1193.9,1236.8
+Gasolina/Elèctric Endollable,0.549,0.0,0.0,1078.4,1121.3
+Diesel Mild Hybrid,0.473,0.0,0.0,860.2,903.1
+Diesel/Elèctric Endollable,0.305,0.0,0.0,528.1,571.0
+Total,0.139,0.139,0.174,1449.3,1492.2

@@ -1,0 +1,85 @@
+Tecnologia,date,Model,predicted,actual
+Elèctric,2025-01-01,Ensemble,1329.1995642925324,1230
+Elèctric,2025-02-01,Ensemble,1246.7816281501016,1193
+Elèctric,2025-03-01,Ensemble,1332.6848402177593,1616
+Elèctric,2025-04-01,Ensemble,1094.8517897602471,1401
+Elèctric,2025-05-01,Ensemble,1159.200960051018,1773
+Elèctric,2025-06-01,Ensemble,1359.0580776873549,2096
+Elèctric,2025-07-01,Ensemble,1309.3361292117997,1998
+Elèctric,2025-08-01,Ensemble,1120.5199143720222,1415
+Elèctric,2025-09-01,Ensemble,1328.7452308441561,1894
+Elèctric,2025-10-01,Ensemble,1341.7963933658882,1789
+Elèctric,2025-11-01,Ensemble,1376.1081933269536,2329
+Elèctric,2025-12-01,Ensemble,1486.619812623794,1761
+Gasolina Mild Hybrid,2025-01-01,Ensemble,1877.4248140089858,1981
+Gasolina Mild Hybrid,2025-02-01,Ensemble,1997.7033359887457,1933
+Gasolina Mild Hybrid,2025-03-01,Ensemble,2186.7088348872235,2244
+Gasolina Mild Hybrid,2025-04-01,Ensemble,2045.7482430473367,1906
+Gasolina Mild Hybrid,2025-05-01,Ensemble,2265.2314556915317,2472
+Gasolina Mild Hybrid,2025-06-01,Ensemble,2384.371350268041,2455
+Gasolina Mild Hybrid,2025-07-01,Ensemble,2357.8623191872607,2253
+Gasolina Mild Hybrid,2025-08-01,Ensemble,2026.350939182759,1415
+Gasolina Mild Hybrid,2025-09-01,Ensemble,2284.1551111583994,1980
+Gasolina Mild Hybrid,2025-10-01,Ensemble,2448.330329878916,2530
+Gasolina Mild Hybrid,2025-11-01,Ensemble,2361.740572308081,2271
+Gasolina Mild Hybrid,2025-12-01,Ensemble,2633.9105078925318,2349
+Gasolina/Elèctric,2025-01-01,Ensemble,2337.343773648727,2265
+Gasolina/Elèctric,2025-02-01,Ensemble,2372.1068045245297,2463
+Gasolina/Elèctric,2025-03-01,Ensemble,2327.1485715656804,2512
+Gasolina/Elèctric,2025-04-01,Ensemble,2254.382254265944,2060
+Gasolina/Elèctric,2025-05-01,Ensemble,2549.176283409875,2410
+Gasolina/Elèctric,2025-06-01,Ensemble,2700.7550807495495,2476
+Gasolina/Elèctric,2025-07-01,Ensemble,2791.808737177673,2927
+Gasolina/Elèctric,2025-08-01,Ensemble,2353.04957497685,1853
+Gasolina/Elèctric,2025-09-01,Ensemble,2467.103178504129,2382
+Gasolina/Elèctric,2025-10-01,Ensemble,2772.8469369806394,2863
+Gasolina/Elèctric,2025-11-01,Ensemble,2865.0848708543895,3231
+Gasolina/Elèctric,2025-12-01,Ensemble,2859.9319093338013,2858
+Gasolina/Elèctric Endollable,2025-01-01,Ensemble,672.7351799645577,643
+Gasolina/Elèctric Endollable,2025-02-01,Ensemble,665.9973540274488,847
+Gasolina/Elèctric Endollable,2025-03-01,Ensemble,645.1125974714895,975
+Gasolina/Elèctric Endollable,2025-04-01,Ensemble,616.5457191478378,1071
+Gasolina/Elèctric Endollable,2025-05-01,Ensemble,735.6196367455655,1384
+Gasolina/Elèctric Endollable,2025-06-01,Ensemble,761.7828623752565,1684
+Gasolina/Elèctric Endollable,2025-07-01,Ensemble,756.0117271269905,1869
+Gasolina/Elèctric Endollable,2025-08-01,Ensemble,612.3461954120609,1092
+Gasolina/Elèctric Endollable,2025-09-01,Ensemble,698.0896693992885,1534
+Gasolina/Elèctric Endollable,2025-10-01,Ensemble,803.8941803367056,1571
+Gasolina/Elèctric Endollable,2025-11-01,Ensemble,786.4676408413789,1362
+Gasolina/Elèctric Endollable,2025-12-01,Ensemble,864.2203550832537,1574
+Diesel Mild Hybrid,2025-01-01,Ensemble,276.4903551644897,294
+Diesel Mild Hybrid,2025-02-01,Ensemble,261.6362168132086,261
+Diesel Mild Hybrid,2025-03-01,Ensemble,277.90156191205693,363
+Diesel Mild Hybrid,2025-04-01,Ensemble,287.1845471210544,278
+Diesel Mild Hybrid,2025-05-01,Ensemble,290.2637454083629,269
+Diesel Mild Hybrid,2025-06-01,Ensemble,310.3852696662805,249
+Diesel Mild Hybrid,2025-07-01,Ensemble,324.2038067736415,293
+Diesel Mild Hybrid,2025-08-01,Ensemble,257.2628677107967,213
+Diesel Mild Hybrid,2025-09-01,Ensemble,291.05107326118537,309
+Diesel Mild Hybrid,2025-10-01,Ensemble,329.5988293889404,338
+Diesel Mild Hybrid,2025-11-01,Ensemble,315.9019128590962,241
+Diesel Mild Hybrid,2025-12-01,Ensemble,345.59669852319297,299
+Diesel/Elèctric Endollable,2025-01-01,Ensemble,34.575828368884736,35
+Diesel/Elèctric Endollable,2025-02-01,Ensemble,32.333808290192394,20
+Diesel/Elèctric Endollable,2025-03-01,Ensemble,34.31374367461321,31
+Diesel/Elèctric Endollable,2025-04-01,Ensemble,33.35155036573495,37
+Diesel/Elèctric Endollable,2025-05-01,Ensemble,32.53002188192155,47
+Diesel/Elèctric Endollable,2025-06-01,Ensemble,32.27750890087191,40
+Diesel/Elèctric Endollable,2025-07-01,Ensemble,33.74194286784672,60
+Diesel/Elèctric Endollable,2025-08-01,Ensemble,31.034601777916876,32
+Diesel/Elèctric Endollable,2025-09-01,Ensemble,30.82110659196017,71
+Diesel/Elèctric Endollable,2025-10-01,Ensemble,32.43479933930838,58
+Diesel/Elèctric Endollable,2025-11-01,Ensemble,30.036083158380624,52
+Diesel/Elèctric Endollable,2025-12-01,Ensemble,37.72994345992536,43
+Total,2025-01-01,Ensemble,6351.187458950929,6448
+Total,2025-02-01,Ensemble,6514.221050621247,6718
+Total,2025-03-01,Ensemble,6764.310232371169,7741
+Total,2025-04-01,Ensemble,6420.133566014872,6754
+Total,2025-05-01,Ensemble,6930.37741172738,8355
+Total,2025-06-01,Ensemble,7268.744523347945,9000
+Total,2025-07-01,Ensemble,7436.857369647873,9402
+Total,2025-08-01,Ensemble,6557.538885500006,6020
+Total,2025-09-01,Ensemble,7104.7519543739845,8170
+Total,2025-10-01,Ensemble,7570.806752082161,9166
+Total,2025-11-01,Ensemble,7571.93671826085,9506
+Total,2025-12-01,Ensemble,8002.692978786853,8895

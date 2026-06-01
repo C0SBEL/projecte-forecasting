@@ -1,0 +1,64 @@
+Tecnologia,Model,RMSE,MAE,MAPE,MASE
+Diesel Mild Hybrid,AutoSARIMA,60.1,49.86,19.73,0.76
+Diesel Mild Hybrid,ETS_Additiu,53.06,44.52,18.06,0.68
+Diesel Mild Hybrid,ETS_Multiplicatiu,60.88,49.12,18.98,0.75
+Diesel Mild Hybrid,Ensemble,49.77,40.03,16.04,0.61
+Diesel Mild Hybrid,GlobalLGBM,99.4,83.05,33.34,1.27
+Diesel Mild Hybrid,LSTM,51.78,42.24,16.43,0.65
+Diesel Mild Hybrid,LightGBM,61.4,49.09,18.04,0.75
+Diesel Mild Hybrid,SeasonalNaive,61.55,47.51,17.65,0.73
+Diesel Mild Hybrid,TBATS,51.43,41.75,16.41,0.64
+Diesel/Elèctric Endollable,AutoSARIMA,15.41,12.27,83.88,1.79
+Diesel/Elèctric Endollable,ETS_Additiu,12.15,9.93,61.88,1.44
+Diesel/Elèctric Endollable,ETS_Multiplicatiu,20.12,15.4,79.77,2.16
+Diesel/Elèctric Endollable,Ensemble,12.38,10.08,62.7,1.46
+Diesel/Elèctric Endollable,GlobalLGBM,53.77,41.46,274.08,5.89
+Diesel/Elèctric Endollable,LSTM,12.85,10.93,55.35,1.57
+Diesel/Elèctric Endollable,LightGBM,15.53,13.09,63.4,1.86
+Diesel/Elèctric Endollable,SeasonalNaive,13.92,11.24,59.82,1.63
+Diesel/Elèctric Endollable,TBATS,12.74,10.71,52.89,1.54
+Elèctric,AutoSARIMA,450.34,385.7,36.73,1.06
+Elèctric,ETS_Additiu,306.67,257.79,23.84,0.72
+Elèctric,ETS_Multiplicatiu,348.69,291.8,27.34,0.81
+Elèctric,Ensemble,312.11,257.26,22.94,0.72
+Elèctric,GlobalLGBM,327.95,264.74,23.43,0.74
+Elèctric,LSTM,337.14,277.93,23.64,0.78
+Elèctric,LightGBM,352.58,295.1,24.38,0.84
+Elèctric,SeasonalNaive,363.66,300.31,24.53,0.85
+Elèctric,TBATS,337.87,277.86,23.55,0.78
+Gasolina Mild Hybrid,AutoSARIMA,216.42,178.24,11.87,0.74
+Gasolina Mild Hybrid,ETS_Additiu,235.53,194.16,12.69,0.8
+Gasolina Mild Hybrid,ETS_Multiplicatiu,226.21,179.99,11.86,0.75
+Gasolina Mild Hybrid,Ensemble,225.24,184.25,12.04,0.76
+Gasolina Mild Hybrid,GlobalLGBM,348.74,286.92,18.29,1.17
+Gasolina Mild Hybrid,LSTM,319.49,262.99,15.98,1.09
+Gasolina Mild Hybrid,LightGBM,472.19,407.5,24.2,1.68
+Gasolina Mild Hybrid,SeasonalNaive,377.31,322.81,19.3,1.33
+Gasolina Mild Hybrid,TBATS,259.35,207.93,13.7,0.86
+Gasolina/Elèctric,AutoSARIMA,311.86,246.37,12.63,0.97
+Gasolina/Elèctric,ETS_Additiu,302.62,244.05,12.33,0.96
+Gasolina/Elèctric,ETS_Multiplicatiu,307.62,249.42,12.53,0.98
+Gasolina/Elèctric,Ensemble,311.89,248.99,12.61,0.97
+Gasolina/Elèctric,GlobalLGBM,623.72,503.94,26.09,1.94
+Gasolina/Elèctric,LSTM,431.47,361.65,18.86,1.42
+Gasolina/Elèctric,LightGBM,512.28,444.98,21.94,1.73
+Gasolina/Elèctric,SeasonalNaive,429.77,363.5,18.07,1.41
+Gasolina/Elèctric,TBATS,344.17,283.06,14.37,1.11
+Gasolina/Elèctric Endollable,AutoSARIMA,266.01,224.45,28.43,1.82
+Gasolina/Elèctric Endollable,ETS_Additiu,250.5,209.9,25.9,1.69
+Gasolina/Elèctric Endollable,ETS_Multiplicatiu,279.81,233.73,28.62,1.89
+Gasolina/Elèctric Endollable,Ensemble,253.29,211.82,26.22,1.71
+Gasolina/Elèctric Endollable,GlobalLGBM,327.38,270.66,38.42,2.21
+Gasolina/Elèctric Endollable,LSTM,259.72,210.26,25.14,1.7
+Gasolina/Elèctric Endollable,LightGBM,293.27,239.46,27.74,1.94
+Gasolina/Elèctric Endollable,SeasonalNaive,284.67,233.26,27.18,1.89
+Gasolina/Elèctric Endollable,TBATS,268.23,224.57,28.02,1.81
+Total,AutoSARIMA,826.31,702.87,11.88,0.82
+Total,ETS_Additiu,805.58,676.51,11.21,0.79
+Total,ETS_Multiplicatiu,1441.04,1305.84,22.14,1.52
+Total,Ensemble,832.06,687.0,11.58,0.8
+Total,GlobalLGBM,1287.75,1096.11,18.03,1.28
+Total,LSTM,1121.51,935.89,15.92,1.1
+Total,LightGBM,1494.06,1280.27,20.86,1.5
+Total,SeasonalNaive,1204.25,1077.86,17.67,1.26
+Total,TBATS,1045.52,854.72,15.17,1.0
