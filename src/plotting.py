@@ -74,10 +74,11 @@ def plot_backtest_per_tech(pivot_train, pivot_test, df_forecasts, df_metrics,
 def plot_wfv_per_tech(pivot_full, df_wfv_forecasts, df_wfv_metrics_agg,
                       tecnologies, model_name, save_path=None,
                       color_pred='#7b2d8b'):
-    """4x2 grid: per-tech WFV visualization.
+    """4x2 grid: per-tech WFV visualization, h=1 only.
 
-    For each tech: real series (full history) + WFV predictions superposed
-    (one thin dashed line per fold). Title shows mean 4 metrics over folds.
+    For each tech: real series (full history) + 13 punts h=1 connectats
+    (la predicció a un mes vista a cada origin del WFV). Títol amb les 4
+    mètriques mitjanes sobre folds. Net i interpretable.
     """
     fig, axes = plt.subplots(4, 2, figsize=(14, 18))
     axes_flat = axes.flatten()
@@ -88,11 +89,13 @@ def plot_wfv_per_tech(pivot_full, df_wfv_forecasts, df_wfv_metrics_agg,
         ax.plot(s.index, s.values, color='#2c7bb6', lw=2,
                 label='Observat', zorder=10)
 
-        sub = df_wfv_forecasts[df_wfv_forecasts['Tecnologia'] == tech]
-        for fold_start, group in sub.groupby('fold_start'):
-            g = group.sort_values('h')
-            ax.plot(pd.to_datetime(g['date']), g['predicted'],
-                    color=color_pred, lw=1.0, ls='--', alpha=0.45)
+        sub = df_wfv_forecasts[
+            (df_wfv_forecasts['Tecnologia'] == tech)
+            & (df_wfv_forecasts['h'] == 1)
+        ].sort_values('date')
+        ax.plot(pd.to_datetime(sub['date']), sub['predicted'],
+                color=color_pred, lw=1.5, ls='--', marker='o', ms=5,
+                label=f'{model_name} (h=1 per fold)')
 
         row = df_wfv_metrics_agg[df_wfv_metrics_agg['Tecnologia'] == tech]
         if len(row):
@@ -107,13 +110,13 @@ def plot_wfv_per_tech(pivot_full, df_wfv_forecasts, df_wfv_metrics_agg,
             from matplotlib.lines import Line2D
             handles = [
                 Line2D([0], [0], color='#2c7bb6', lw=2, label='Observat'),
-                Line2D([0], [0], color=color_pred, lw=1.2, ls='--',
-                       label=f'{model_name} — un fold per línia'),
+                Line2D([0], [0], color=color_pred, lw=1.5, ls='--', marker='o',
+                       ms=5, label=f'{model_name} — predicció h=1 per fold'),
             ]
-            axes_flat[j].legend(handles=handles, loc='center', fontsize=11)
+            axes_flat[j].legend(handles=handles, loc='center', fontsize=10)
 
     plt.suptitle(f'{model_name} — Walk-forward per tecnologia '
-                 f'(13 folds × 12 horitzons)', fontsize=13, y=1.0)
+                 f'(predicció a un mes vista, 13 folds)', fontsize=13, y=1.0)
     plt.tight_layout()
     if save_path is not None:
         plt.savefig(save_path, bbox_inches='tight')
