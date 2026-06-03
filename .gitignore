@@ -8,3 +8,14 @@ data/raw/
 __pycache__/
 *.pyc
 .ipynb_checkpoints/
+
+# Scripts auxiliars (eines internes de manteniment, no per a l'entrega acadèmica)
+scripts/
+
+# Artefactes per a la redacció de la memòria (eines internes)
+prompt_memoria.txt
+figures_memoria.zip
+figures_memoria/
+
+# Configuració local de Claude
+.claude/

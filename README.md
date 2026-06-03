@@ -1,93 +1,148 @@
-# Projecte Forecasting
+# Projecte Forecasting: matriculacions de vehicles electrificats i híbrids a Catalunya
 
+Benchmark de models univariants de sèries temporals per predir matriculacions mensuals de vehicles electrificats i híbrids a Catalunya (DGT/IDESCAT), amb previsió per a l'any 2026.
 
+Treball final de l'assignatura *Forecasting* del Màster en Data Science (La Salle BCN, curs 2025-26).
 
-## Getting started
+## Context
 
-To make it easy for you to get started with GitLab, here's a list of recommended next steps.
+- **Dataset**: matriculacions mensuals per tecnologia de propulsió a Catalunya. Font: DGT/IDESCAT. Període: gener 2017 a desembre 2025 (108 mesos).
+- **Sèries modelitzades** (7): Total agregat i 6 sub-tecnologies: Elèctric (BEV), Gasolina Mild Hybrid, Gasolina/Elèctric (HEV), Gasolina/Elèctric Endollable (PHEV), Diesel Mild Hybrid, Diesel/Elèctric Endollable.
+- **Objectiu**: comparar 10 models univariants en dues avaluacions complementàries i generar una previsió a 12 mesos (2026).
+- **Particions**:
+  - *Backtest 2025*: train 2017-2024 (96 mesos), test 2025 (12 mesos, holdout únic).
+  - *Walk-forward validation* (WFV): 13 origins amb `initial=60`, `step=3`, `horizon=12`.
 
-Already a pro? Just edit this README.md and make it your own. Want to make it easy? [Use the template at the bottom](#editing-this-readme)!
+El Total es modelitza com a sèrie pròpia (no com a suma de sub-tecnologies). Les mètriques es reporten **per separat** per al Total i per a les 6 sub-tecnologies; no es fa cap mitjana entre nivells jeràrquics.
 
-## Add your files
+## Mètriques
 
-* [Create](https://docs.gitlab.com/user/project/repository/web_editor/#create-a-file) or [upload](https://docs.gitlab.com/user/project/repository/web_editor/#upload-a-file) files
-* [Add files using the command line](https://docs.gitlab.com/topics/git/add_files/#add-files-to-a-git-repository) or push an existing Git repository with the following command:
+Es calculen i es reporten quatre mètriques a totes les taules i gràfics: **RMSE** (matrícules/mes), **MAE** (matrícules/mes), **MAPE** (%) i **MASE**. A la narrativa es discuteix principalment RMSE i MAPE perquè són les més directament interpretables (RMSE en unitats reals, MAPE en percentatge sobre el volum mensual). MAE complementa puntualment quan reforça una comparació, i MASE es manté com a referència contra el SeasonalNaive (lectura binària: MASE < 1 vol dir millor que repetir l'any anterior). Com que l'anàlisi és per cada sèrie de manera independent, la propietat scale-free del MASE no és imprescindible aquí.
+
+## Models implementats
+
+10 models al benchmark principal, en **3 famílies** (alineades amb la guia del professor: deterministes, estocàstics, avançats):
+
+| Família | Models | Notebook |
+|---|---|---|
+| Deterministes (4) | SeasonalNaive, MA_12, OLS_Estacional, OLS_Complet (afegeix dummies COVID i MOVES III) | `models/deterministic/deterministic.ipynb` |
+| Estocàstics (4) | ETS Additiu, ETS Multiplicatiu, AutoSARIMA, TBATS | `models/stochastic/ets.ipynb` (ETS), `sarima.ipynb`, `tbats.ipynb` |
+| Avançats (2) | LightGBM, LSTM | `models/advanced/lgbm.ipynb`, `lstm.ipynb` |
+
+Models exploratoris addicionals a `ensemble_global_lgbm.ipynb` (no entren al rànquing principal): Ensemble (mitjana ETS+SARIMA+TBATS) i Global LightGBM (entrenat sobre les 7 sèries amb `tech_id`).
+
+Transformació `log(y+1)` aplicada NOMÉS al Total per a AutoSARIMA i ETS Additiu (BoxCox `lambda ≈ 0.49` a l'EDA).
+
+## Resultats principals
+
+**Backtest 2025, rànquing al Total** (ordenat per RMSE en matrícules/mes; MAPE en %):
+
+| Model | RMSE | MAPE |
+|---|---:|---:|
+| AutoSARIMA (log) | 464 | 4,6% |
+| ETS Additiu (log) | 877 | 8,9% |
+| LSTM | 1.143 | 13,3% |
+| TBATS | 1.159 | 11,9% |
+| OLS_Estacional | 1.715 | 18,1% |
+| OLS_Complet | 1.778 | 19,0% |
+| SeasonalNaive | 2.140 | 25,4% |
+| LightGBM | 2.350 | 24,1% |
+| MA_12 | 2.360 | 23,6% |
+| ETS Multiplicatiu | 2.449 | 29,6% |
+
+**WFV, rànquing al Total** (mitjana sobre 13 folds, ordenat per RMSE):
+
+| Model | RMSE | MAPE |
+|---|---:|---:|
+| OLS_Estacional | 857 | 12,0% |
+| OLS_Complet | 860 | 11,9% |
+| ETS Additiu | 979 | 15,7% |
+| TBATS | 1.046 | 15,2% |
+| LSTM | 1.122 | 15,9% |
+| SeasonalNaive | 1.204 | 17,7% |
+| AutoSARIMA | 1.336 | 21,2% |
+| MA_12 | 1.336 | 18,5% |
+| ETS Multiplicatiu | 1.441 | 22,1% |
+| LightGBM | 1.494 | 20,9% |
+
+**Guanyadors al Total**:
+- *Backtest 2025*: **AutoSARIMA amb log** (RMSE 464 matrícules/mes, MAPE 4,6%). Marge ampli respecte a ETS Additiu amb log (RMSE 877, MAPE 8,9%).
+- *WFV* (mitjana 13 folds): **OLS_Estacional** i OLS_Complet empatats al capdamunt (RMSE 857-860, MAPE ~12%); ETS Additiu queda tercer (RMSE 979, MAPE 15,7%); AutoSARIMA cau al setè (RMSE 1.336).
+
+**Lectura clau**: backtest i WFV són complementaris, no contradictoris. AutoSARIMA(log) destaca al cicle 2025 (any excepcional, +34% YoY) però és fràgil en altres folds. OLS_Estacional guanya en mitjana WFV (resultat contraintuïtiu coherent amb la lliçó M-competitions: clàssics > ML quan N és petit). La recomanació de producció és OLS_Estacional per robustesa i simplicitat; per a una previsió puntual a 12 mesos com la del 2026, el guanyador del backtest per sèrie és l'opció natural.
+
+**Previsió 2026** (model guanyador del backtest per sèrie):
+
+| Tecnologia | Model | 2025 (real) | 2026 (prev.) | YoY |
+|---|---|---:|---:|---:|
+| Total | AutoSARIMA(log) | 96.175 | 114.411 | +19,0% |
+| Elèctric | ETS Multiplicatiu | 20.495 | 22.253 | +8,6% |
+| Gasolina MH | AutoSARIMA | 25.789 | 27.814 | +7,9% |
+| Gasolina/Elèctric | ETS Multiplicatiu | 30.300 | 27.386 | -9,6% |
+| PHEV gasolina | OLS_Estacional | 15.606 | 13.584 | -13,0% |
+| Diesel MH | AutoSARIMA | 3.407 | 3.596 | +5,6% |
+| Diesel PHEV | AutoSARIMA | 526 | 649 | +23,3% |
+
+## Estructura del repositori
 
 ```
-cd existing_repo
-git remote add origin https://gitlab.com/ferran.tubert.15/projecte-forecasting.git
-git branch -M main
-git push -uf origin main
+projecte-forecasting/
+├── data/
+│   └── processed/                # CSVs treballats (train/test, pivots, descriptiva)
+│       └── results/              # Forecasts i mètriques de tots els models
+├── docs/                         # EDA report i enunciat
+├── figures/                      # Figures (PNG) generades pels notebooks
+├── notebooks/
+│   ├── data_preparation.ipynb    # Càrrega, neteja, particions
+│   ├── eda.ipynb                 # Anàlisi exploratori, ADF, BoxCox, ACF/PACF
+│   ├── models/                       # Notebooks agrupats per família metodològica
+│   │   ├── deterministic/
+│   │   │   └── deterministic.ipynb   # SeasonalNaive + MA_12 + OLS_Estacional + OLS_Complet
+│   │   ├── stochastic/
+│   │   │   ├── ets.ipynb             # ETS Additiu + ETS Multiplicatiu
+│   │   │   ├── sarima.ipynb          # AutoSARIMA (amb log al Total)
+│   │   │   └── tbats.ipynb           # TBATS
+│   │   └── advanced/
+│   │       ├── lgbm.ipynb            # LightGBM per sèrie
+│   │       └── lstm.ipynb            # LSTM per sèrie
+│   ├── ensemble_global_lgbm.ipynb    # Models exploratoris (Ensemble, Global LightGBM)
+│   ├── evaluation.ipynb              # Comparativa global, rànquings, WFV vs backtest
+│   └── forecast_2026.ipynb           # Previsió 2026 amb el guanyador del backtest
+├── src/
+│   ├── evaluation.py             # compute_metrics, walk_forward_cv_full
+│   ├── features.py               # build_ml_features, get_feature_columns
+│   ├── models.py                 # Wrappers dels models
+│   └── plotting.py               # Helpers de plot reutilitzables
+└── requirements.txt
 ```
 
-## Integrate with your tools
+## Reproductibilitat
 
-* [Set up project integrations](https://gitlab.com/ferran.tubert.15/projecte-forecasting/-/settings/integrations)
+Requisits: Python 3.10+, `pip`. Recomanat: entorn virtual.
 
-## Collaborate with your team
+```bash
+python -m venv .venv
+.venv\Scripts\activate          # Windows
+pip install -r requirements.txt
+jupyter notebook
+```
 
-* [Invite team members and collaborators](https://docs.gitlab.com/user/project/members/)
-* [Create a new merge request](https://docs.gitlab.com/user/project/merge_requests/creating_merge_requests/)
-* [Automatically close issues from merge requests](https://docs.gitlab.com/user/project/issues/managing_issues/#closing-issues-automatically)
-* [Enable merge request approvals](https://docs.gitlab.com/user/project/merge_requests/approvals/)
-* [Set auto-merge](https://docs.gitlab.com/user/project/merge_requests/auto_merge/)
+Ordre d'execució dels notebooks:
 
-## Test and Deploy
+1. `data_preparation.ipynb` (genera els CSVs a `data/processed/`)
+2. `eda.ipynb`
+3. `models/deterministic/deterministic.ipynb` (SeasonalNaive + MA_12 + OLS_Estacional + OLS_Complet)
+4. `models/stochastic/ets.ipynb`, `sarima.ipynb`, `tbats.ipynb`
+5. `models/advanced/lgbm.ipynb`, `lstm.ipynb`
+6. `ensemble_global_lgbm.ipynb`
+7. `evaluation.ipynb`
+8. `forecast_2026.ipynb`
 
-Use the built-in continuous integration in GitLab.
+Cada notebook persisteix forecasts i mètriques a `data/processed/results/` i figures a `figures/`. L'`evaluation.ipynb` agrega tots els resultats; `forecast_2026.ipynb` consumeix `model_ranking_total.csv` i les mètriques per sèrie per triar el model guanyador del backtest.
 
-* [Get started with GitLab CI/CD](https://docs.gitlab.com/ci/quick_start/)
-* [Analyze your code for known vulnerabilities with Static Application Security Testing (SAST)](https://docs.gitlab.com/user/application_security/sast/)
-* [Deploy to Kubernetes, Amazon EC2, or Amazon ECS using Auto Deploy](https://docs.gitlab.com/topics/autodevops/requirements/)
-* [Use pull-based deployments for improved Kubernetes management](https://docs.gitlab.com/user/clusters/agent/)
-* [Set up protected environments](https://docs.gitlab.com/ci/environments/protected_environments/)
+## Referències
 
-***
-
-# Editing this README
-
-When you're ready to make this README your own, just edit this file and use the handy template below (or feel free to structure it however you want - this is just a starting point!). Thanks to [makeareadme.com](https://www.makeareadme.com/) for this template.
-
-## Suggestions for a good README
-
-Every project is different, so consider which of these sections apply to yours. The sections used in the template are suggestions for most open source projects. Also keep in mind that while a README can be too long and detailed, too long is better than too short. If you think your README is too long, consider utilizing another form of documentation rather than cutting out information.
-
-## Name
-Choose a self-explaining name for your project.
-
-## Description
-Let people know what your project can do specifically. Provide context and add a link to any reference visitors might be unfamiliar with. A list of Features or a Background subsection can also be added here. If there are alternatives to your project, this is a good place to list differentiating factors.
-
-## Badges
-On some READMEs, you may see small images that convey metadata, such as whether or not all the tests are passing for the project. You can use Shields to add some to your README. Many services also have instructions for adding a badge.
-
-## Visuals
-Depending on what you are making, it can be a good idea to include screenshots or even a video (you'll frequently see GIFs rather than actual videos). Tools like ttygif can help, but check out Asciinema for a more sophisticated method.
-
-## Installation
-Within a particular ecosystem, there may be a common way of installing things, such as using Yarn, NuGet, or Homebrew. However, consider the possibility that whoever is reading your README is a novice and would like more guidance. Listing specific steps helps remove ambiguity and gets people to using your project as quickly as possible. If it only runs in a specific context like a particular programming language version or operating system or has dependencies that have to be installed manually, also add a Requirements subsection.
-
-## Usage
-Use examples liberally, and show the expected output if you can. It's helpful to have inline the smallest example of usage that you can demonstrate, while providing links to more sophisticated examples if they are too long to reasonably include in the README.
-
-## Support
-Tell people where they can go to for help. It can be any combination of an issue tracker, a chat room, an email address, etc.
-
-## Roadmap
-If you have ideas for releases in the future, it is a good idea to list them in the README.
-
-## Contributing
-State if you are open to contributions and what your requirements are for accepting them.
-
-For people who want to make changes to your project, it's helpful to have some documentation on how to get started. Perhaps there is a script that they should run or some environment variables that they need to set. Make these steps explicit. These instructions could also be useful to your future self.
-
-You can also document commands to lint the code or run tests. These steps help to ensure high code quality and reduce the likelihood that the changes inadvertently break something. Having instructions for running tests is especially helpful if it requires external setup, such as starting a Selenium server for testing in a browser.
-
-## Authors and acknowledgment
-Show your appreciation to those who have contributed to the project.
-
-## License
-For open source projects, say how it is licensed.
-
-## Project status
-If you have run out of energy or time for your project, put a note at the top of the README saying that development has slowed down or stopped completely. Someone may choose to fork your project or volunteer to step in as a maintainer or owner, allowing your project to keep going. You can also make an explicit request for maintainers.
+- Hyndman, R. J., & Athanasopoulos, G. (2021). *Forecasting: Principles and Practice* (3a ed.). OTexts. Capítol 5.10 (walk-forward validation).
+- Makridakis, S., Spiliotis, E., & Assimakopoulos, V. (2020). The M4 Competition: 100,000 time series and 61 forecasting methods. *International Journal of Forecasting*, 36(1), 54-74.
+</content>
+</invoke>
